@@ -2,7 +2,8 @@
   "name": "ng2-generator-buddy",
   "main": "./lib/ng2-generator-buddy",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "The beginings of asimple node module for making ng2 components faster and consistent.
+",
   "keywords": [
     "typescript"
   ],
@@ -10,11 +11,11 @@
     "name": "Tommy Dunn",
     "email": "tommy@tommyldunn.com"
   },
-  "homepage": "https://github.com/tommyldunn/ng2-generator-buddy",
+  "homepage": "https://github.com/Tommyldunn/atom-ng2-generator-buddy",
   "activationCommands": {
     "atom-workspace": "ng2-generator-buddy:toggle"
   },
-  "repository": "https://github.com/atom/ng2-generator-buddy",
+  "repository": "https://github.com/Tommyldunn/atom-ng2-generator-buddy",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
