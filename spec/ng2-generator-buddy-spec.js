@@ -1,6 +1,6 @@
 'use babel';
 
-import Ng2ComponentGenerator from '../lib/ng2';
+import Ng2ComponentGenerator from '../lib/ng2-generator-buddy';
 
 // Use the command `window:run-package-specs` (cmd-alt-ctrl-p) to run specs.
 //
@@ -24,7 +24,7 @@ describe('Ng2ComponentGenerator', () => {
       // This is an activation event, triggering it will cause the package to be
       // activated.
       atom.commands.dispatch(workspaceElement, 'ng2-generator-buddy:toggle');
-
+      console.log(this);
       waitsForPromise(() => {
         return activationPromise;
       });
@@ -43,6 +43,7 @@ describe('Ng2ComponentGenerator', () => {
     });
 
     it('hides and shows the view', () => {
+      console.log(this);
       // This test shows you an integration test testing at the view level.
 
       // Attaching the workspaceElement to the DOM is required to allow the
@@ -68,6 +69,7 @@ describe('Ng2ComponentGenerator', () => {
         atom.commands.dispatch(workspaceElement, 'ng2-generator-buddy:toggle');
         expect(ng2GeneratorBuddyElement).not.toBeVisible();
       });
+      console.log(this);
     });
   });
 });
