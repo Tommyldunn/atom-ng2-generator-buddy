@@ -12,32 +12,32 @@ describe('Ng2ComponentGenerator', () => {
 
   beforeEach(() => {
     workspaceElement = atom.views.getView(atom.workspace);
-    activationPromise = atom.packages.activatePackage('ng2-buddy-generator');
+    activationPromise = atom.packages.activatePackage('ng2-generator-buddy');
   });
 
-  describe('when the ng2-buddy-generator:toggle event is triggered', () => {
+  describe('when the ng2-generator-buddy:toggle event is triggered', () => {
     it('hides and shows the modal panel', () => {
       // Before the activation event the view is not on the DOM, and no panel
       // has been created
-      expect(workspaceElement.querySelector('.ng2-buddy-generator')).not.toExist();
+      expect(workspaceElement.querySelector('.ng2-generator-buddy')).not.toExist();
 
       // This is an activation event, triggering it will cause the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'ng2-buddy-generator:toggle');
+      atom.commands.dispatch(workspaceElement, 'ng2-generator-buddy:toggle');
 
       waitsForPromise(() => {
         return activationPromise;
       });
 
       runs(() => {
-        expect(workspaceElement.querySelector('.ng2-buddy-generator')).toExist();
+        expect(workspaceElement.querySelector('.ng2-generator-buddy')).toExist();
 
-        let ng2GeneratorBuddyElement = workspaceElement.querySelector('.ng2-buddy-generator');
+        let ng2GeneratorBuddyElement = workspaceElement.querySelector('.ng2-generator-buddy');
         expect(ng2GeneratorBuddyElement).toExist();
 
         let ng2GeneratorBuddyPanel = atom.workspace.panelForItem(ng2GeneratorBuddyElement);
         expect(ng2GeneratorBuddyPanel.isVisible()).toBe(true);
-        atom.commands.dispatch(workspaceElement, 'ng2-buddy-generator:toggle');
+        atom.commands.dispatch(workspaceElement, 'ng2-generator-buddy:toggle');
         expect(ng2GeneratorBuddyPanel.isVisible()).toBe(false);
       });
     });
@@ -51,11 +51,11 @@ describe('Ng2ComponentGenerator', () => {
       // workspaceElement to the DOM are generally slower than those off DOM.
       jasmine.attachToDOM(workspaceElement);
 
-      expect(workspaceElement.querySelector('.ng2-buddy-generator')).not.toExist();
+      expect(workspaceElement.querySelector('.ng2-generator-buddy')).not.toExist();
 
       // This is an activation event, triggering it causes the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'ng2-buddy-generator:toggle');
+      atom.commands.dispatch(workspaceElement, 'ng2-generator-buddy:toggle');
 
       waitsForPromise(() => {
         return activationPromise;
@@ -63,9 +63,9 @@ describe('Ng2ComponentGenerator', () => {
 
       runs(() => {
         // Now we can test for view visibility
-        let ng2GeneratorBuddyElement = workspaceElement.querySelector('.ng2-buddy-generator');
+        let ng2GeneratorBuddyElement = workspaceElement.querySelector('.ng2-generator-buddy');
         expect(ng2GeneratorBuddyElement).toBeVisible();
-        atom.commands.dispatch(workspaceElement, 'ng2-buddy-generator:toggle');
+        atom.commands.dispatch(workspaceElement, 'ng2-generator-buddy:toggle');
         expect(ng2GeneratorBuddyElement).not.toBeVisible();
       });
     });
