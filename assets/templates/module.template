@@ -1,0 +1,18 @@
+import { NgModule } from '@angular/core';
+
+import { {className}Component } from './{componentName}.component';
+
+@NgModule({
+    imports: [
+
+    ],
+    declarations: [
+        {className}Component,
+    ],
+    exports: [
+        {className}Component,
+    ]
+})
+export class {className}Module {
+
+}
