@@ -1,0 +1,7 @@
+'context-menu':
+  'atom-panel-container .directory': [
+    {
+      "label": "ng2-generator-buddy",
+      "command": "ng2-generator-buddy:toggle"
+    }
+  ]

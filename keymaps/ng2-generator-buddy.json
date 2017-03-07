@@ -1,5 +1,5 @@
 {
-  "atom-workspace": {
-    "ctrl-alt-o": "ng2-generator-buddy:toggle"
-  }
+    "atom-workspace": {
+        "ctrl-alt-i": "ng2-generator-buddy:toggle"
+    }
 }
