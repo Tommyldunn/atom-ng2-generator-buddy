@@ -1,29 +1,29 @@
 {
-    "name": "ng2-generator-buddy",
-    "main": "./lib/ng2-generator-buddy",
-    "version": "0.1.0",
-    "description": "Building off of angular2-component-generator, this is the beginings of a simple node module for making ng2 components faster and consistent.",
-    "keywords": [
-        "typescript"
-    ],
-    "author": {
-        "name": "Tommy Dunn",
-        "email": "tommy@tommyldunn.com"
-    },
-    "homepage": "https://github.com/Tommyldunn/atom-ng2-generator-buddy",
-    "activationCommands": {
-        "atom-workspace": "ng2-generator-buddy:toggle"
-    },
-    "repository": "https://github.com/Tommyldunn/atom-ng2-generator-buddy",
-    "license": "MIT",
-    "engines": {
-        "atom": ">=1.0.0 <2.0.0"
-    },
-    "dependencies": {
-        "atom-space-pen-views": "^2.2.0",
-        "change-case": "^3.0.0",
-        "fs": "0.0.1-security",
-        "fs-extra": "^0.30.0",
-        "rxjs": "^5.0.0-rc.1"
-    }
+  "name": "ng2-generator-buddy",
+  "main": "./lib/ng2-generator-buddy",
+  "version": "0.1.1",
+  "description": "Building off of angular2-component-generator, this is the beginings of a simple node module for making ng2 components faster and consistent.",
+  "keywords": [
+    "typescript"
+  ],
+  "author": {
+    "name": "Tommy Dunn",
+    "email": "tommy@tommyldunn.com"
+  },
+  "homepage": "https://github.com/Tommyldunn/atom-ng2-generator-buddy",
+  "activationCommands": {
+    "atom-workspace": "ng2-generator-buddy:toggle"
+  },
+  "repository": "https://github.com/Tommyldunn/atom-ng2-generator-buddy",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.2.0",
+    "change-case": "^3.0.0",
+    "fs": "0.0.1-security",
+    "fs-extra": "^0.30.0",
+    "rxjs": "^5.0.0-rc.1"
+  }
 }
