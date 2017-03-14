@@ -13,6 +13,4 @@ import { {className}Component } from './{componentName}.component';
         {className}Component,
     ]
 })
-export class {className}Module {
-
-}
+export class {className}Module { }
