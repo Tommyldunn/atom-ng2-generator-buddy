@@ -10,7 +10,6 @@
     "name": "Tommy Dunn",
     "email": "tommy@tommyldunn.com"
   },
-  "homepage": "https://github.com/Tommyldunn/atom-ng2-generator-buddy",
   "activationCommands": {
     "atom-workspace": "ng2-generator-buddy:toggle"
   },
