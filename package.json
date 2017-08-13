@@ -8,7 +8,7 @@
   ],
   "author": {
     "name": "Tommy Dunn",
-    "email": "tommy@tommyldunn.com"
+    "email": "tommylogandunn@gmail.com"
   },
   "activationCommands": {
     "atom-workspace": "ng2-generator-buddy:toggle"
