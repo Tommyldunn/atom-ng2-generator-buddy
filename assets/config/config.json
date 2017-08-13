@@ -4,7 +4,7 @@
             "create": true,
             "extension": "ts"
         },
-        "css": {
+        "scss": {
             "create": true,
             "extension": "scss"
         },
