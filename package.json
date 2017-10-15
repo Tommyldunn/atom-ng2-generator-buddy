@@ -22,7 +22,7 @@
     "atom-space-pen-views": "^2.2.0",
     "change-case": "^3.0.1",
     "fs": "0.0.1-security",
-    "fs-extra": "^4.0.1",
+    "fs-extra": "^0.30.0",
     "rxjs": "^5.4.3"
   }
 }
