@@ -3,9 +3,7 @@ import { NgModule } from '@angular/core';
 import { {className}Component } from './{componentName}.component';
 
 @NgModule({
-    imports: [
-
-    ],
+    imports: [],
     declarations: [
         {className}Component,
     ],

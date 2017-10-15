@@ -18,7 +18,7 @@ export class FileHelper {
     let componentContent = fs.readFileSync(templateFileName).toString()
       .replace(/{selector}/g, componentName)
       .replace(/{templateUrl}/g, `${componentName}.component.html`)
-      .replace(/{styleUrls}/g, `${componentName}.component.scss`)
+      .replace(/{styleUrls}/g, `${componentName}.component.css`)
       .replace(/{className}/g, changeCase.pascalCase(componentName));
 
     let filename = `${componentDir}/${componentName}.component.${config.extension}`;
@@ -68,18 +68,18 @@ export class FileHelper {
     }
   }
 
-  public static createScss(componentDir: string, componentName: string, config: any): Observable<string> {
+  public static createCss(componentDir: string, componentName: string, config: any): Observable<string> {
     let templateFileName = this.assetRootDir + '/templates/scss.template';
     if (config.template) {
       templateFileName = this.resolveWorkspaceRoot(config.template);
     }
 
-    let scssContent = fs.readFileSync(templateFileName).toString();
+    let cssContent = fs.readFileSync(templateFileName).toString();
 
 
     let filename = `${componentDir}/${componentName}.component.${config.extension}`;
     if (config.create) {
-      return this.createFile(filename, scssContent)
+      return this.createFile(filename, cssContent)
         .map(result => filename);
     } else {
       return Observable.of('');

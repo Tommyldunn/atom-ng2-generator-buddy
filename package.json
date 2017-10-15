@@ -1,28 +1,1998 @@
 {
-  "name": "ng2-generator-buddy",
-  "main": "./lib/ng2-generator-buddy",
-  "version": "0.1.8",
-  "description": "Building off of angular2-component-generator, this is the beginings of a simple node module for making ng2 components faster and consistent.",
-  "keywords": [
-    "typescript"
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/y9/wlrvgmv13gv99j94_092xcgc0000gn/T/d-117817-65139-dcb9lo.o3lel5l8fr/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/y9/wlrvgmv13gv99j94_092xcgc0000gn/T/d-117817-65139-dcb9lo.o3lel5l8fr/package.tgz",
+        "spec": "/private/var/folders/y9/wlrvgmv13gv99j94_092xcgc0000gn/T/d-117817-65139-dcb9lo.o3lel5l8fr/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/y9/wlrvgmv13gv99j94_092xcgc0000gn/T/apm-install-dir-117817-65139-dvtwgr.5w8e86ko6r"
+    ]
   ],
-  "author": {
-    "name": "Tommy Dunn",
-    "email": "tommylogandunn@gmail.com"
+  "_from": "../d-117817-65139-dcb9lo.o3lel5l8fr/package.tgz",
+  "_id": "ng2-generator-buddy@0.1.3",
+  "_inCache": true,
+  "_location": "/ng2-generator-buddy",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/y9/wlrvgmv13gv99j94_092xcgc0000gn/T/d-117817-65139-dcb9lo.o3lel5l8fr/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/y9/wlrvgmv13gv99j94_092xcgc0000gn/T/d-117817-65139-dcb9lo.o3lel5l8fr/package.tgz",
+    "spec": "/private/var/folders/y9/wlrvgmv13gv99j94_092xcgc0000gn/T/d-117817-65139-dcb9lo.o3lel5l8fr/package.tgz",
+    "type": "local"
   },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117817-65139-dcb9lo.o3lel5l8fr/package.tgz",
+  "_shasum": "b67cccc8094bf0c2298f517925e19ed8935af997",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/y9/wlrvgmv13gv99j94_092xcgc0000gn/T/d-117817-65139-dcb9lo.o3lel5l8fr/package.tgz",
+  "_where": "/private/var/folders/y9/wlrvgmv13gv99j94_092xcgc0000gn/T/apm-install-dir-117817-65139-dvtwgr.5w8e86ko6r",
   "activationCommands": {
     "atom-workspace": "ng2-generator-buddy:toggle"
   },
-  "repository": "https://github.com/Tommyldunn/atom-ng2-generator-buddy",
-  "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+  "author": {
+    "name": "Tommy Dunn",
+    "email": "tommy@tommyldunn.com"
+  },
+  "bugs": {
+    "url": "https://github.com/Tommyldunn/atom-ng2-generator-buddy/issues"
   },
   "dependencies": {
     "atom-space-pen-views": "^2.2.0",
-    "change-case": "^3.0.1",
+    "change-case": "^3.0.0",
     "fs": "0.0.1-security",
-    "fs-extra": "^4.0.1",
-    "rxjs": "^5.4.3"
+    "fs-extra": "^0.30.0",
+    "rxjs": "^5.0.0-rc.1"
+  },
+  "description": "Building off of angular2-component-generator, this is the beginings of a simple node module for making ng2 components faster and consistent.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/Tommyldunn/atom-ng2-generator-buddy#readme",
+  "keywords": [
+    "typescript"
+  ],
+  "license": "MIT",
+  "main": "./lib/ng2-generator-buddy",
+  "name": "ng2-generator-buddy",
+  "optionalDependencies": {},
+  "readme": "# ng2-generator-buddy package\n\n## Installation\n\n1. Install [atom](https://atom.io).\n2. `apm install ng2-generator-buddy` (`apm` needs `git` in your path)\n\n## Usage\n\n1. Right click on on the file or folder in the explorer\n2. Select \"ng2-generator-buddy\"\n3. Enter component name in the pop up in camelCase\n\n![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tommyldunn/atom-ng2-generator-buddy.git"
+  },
+  "version": "0.1.3",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [
+      {
+        "name": "atom-space-pen-views",
+        "version": "2.2.0",
+        "path": "node_modules/atom-space-pen-views/lib/main.js"
+      },
+      {
+        "name": "balanced-match",
+        "version": "1.0.0",
+        "path": "node_modules/balanced-match/index.js"
+      },
+      {
+        "name": "brace-expansion",
+        "version": "1.1.8",
+        "path": "node_modules/brace-expansion/index.js"
+      },
+      {
+        "name": "camel-case",
+        "version": "3.0.0",
+        "path": "node_modules/camel-case/camel-case.js"
+      },
+      {
+        "name": "change-case",
+        "version": "3.0.1",
+        "path": "node_modules/change-case/change-case.js"
+      },
+      {
+        "name": "concat-map",
+        "version": "0.0.1",
+        "path": "node_modules/concat-map/index.js"
+      },
+      {
+        "name": "constant-case",
+        "version": "2.0.0",
+        "path": "node_modules/constant-case/constant-case.js"
+      },
+      {
+        "name": "d",
+        "version": "0.1.1",
+        "path": "node_modules/d/index.js"
+      },
+      {
+        "name": "dot-case",
+        "version": "2.1.1",
+        "path": "node_modules/dot-case/dot-case.js"
+      },
+      {
+        "name": "emissary",
+        "version": "1.3.3",
+        "path": "node_modules/emissary/lib/emissary.js"
+      },
+      {
+        "name": "es5-ext",
+        "version": "0.10.30",
+        "path": "node_modules/es5-ext/index.js"
+      },
+      {
+        "name": "d",
+        "version": "1.0.0",
+        "path": "node_modules/es5-ext/node_modules/d/index.js"
+      },
+      {
+        "name": "es6-iterator",
+        "version": "2.0.1",
+        "path": "node_modules/es5-ext/node_modules/es6-iterator/index.js"
+      },
+      {
+        "name": "es6-symbol",
+        "version": "3.1.1",
+        "path": "node_modules/es5-ext/node_modules/es6-symbol/index.js"
+      },
+      {
+        "name": "es6-iterator",
+        "version": "0.1.3",
+        "path": "node_modules/es6-iterator/index.js"
+      },
+      {
+        "name": "es6-symbol",
+        "version": "2.0.1",
+        "path": "node_modules/es6-symbol/index.js"
+      },
+      {
+        "name": "es6-weak-map",
+        "version": "0.1.4",
+        "path": "node_modules/es6-weak-map/index.js"
+      },
+      {
+        "name": "fs-extra",
+        "version": "0.30.0",
+        "path": "node_modules/fs-extra/lib/index.js"
+      },
+      {
+        "name": "fs.realpath",
+        "version": "1.0.0",
+        "path": "node_modules/fs.realpath/index.js"
+      },
+      {
+        "name": "fuzzaldrin",
+        "version": "2.1.0",
+        "path": "node_modules/fuzzaldrin/lib/fuzzaldrin.js"
+      },
+      {
+        "name": "glob",
+        "version": "7.1.2",
+        "path": "node_modules/glob/glob.js"
+      },
+      {
+        "name": "graceful-fs",
+        "version": "4.1.11",
+        "path": "node_modules/graceful-fs/graceful-fs.js"
+      },
+      {
+        "name": "grim",
+        "version": "1.5.0",
+        "path": "node_modules/grim/lib/grim.js"
+      },
+      {
+        "name": "header-case",
+        "version": "1.0.1",
+        "path": "node_modules/header-case/header-case.js"
+      },
+      {
+        "name": "inflight",
+        "version": "1.0.6",
+        "path": "node_modules/inflight/inflight.js"
+      },
+      {
+        "name": "inherits",
+        "version": "2.0.3",
+        "path": "node_modules/inherits/inherits.js"
+      },
+      {
+        "name": "is-lower-case",
+        "version": "1.1.3",
+        "path": "node_modules/is-lower-case/is-lower-case.js"
+      },
+      {
+        "name": "is-upper-case",
+        "version": "1.1.2",
+        "path": "node_modules/is-upper-case/is-upper-case.js"
+      },
+      {
+        "name": "jquery",
+        "version": "2.1.4",
+        "path": "node_modules/jquery/dist/jquery.js"
+      },
+      {
+        "name": "jsonfile",
+        "version": "2.4.0",
+        "path": "node_modules/jsonfile/index.js"
+      },
+      {
+        "name": "klaw",
+        "version": "1.3.1",
+        "path": "node_modules/klaw/src/index.js"
+      },
+      {
+        "name": "lower-case",
+        "version": "1.1.4",
+        "path": "node_modules/lower-case/lower-case.js"
+      },
+      {
+        "name": "lower-case-first",
+        "version": "1.0.2",
+        "path": "node_modules/lower-case-first/lower-case-first.js"
+      },
+      {
+        "name": "minimatch",
+        "version": "3.0.4",
+        "path": "node_modules/minimatch/minimatch.js"
+      },
+      {
+        "name": "mixto",
+        "version": "1.0.0",
+        "path": "node_modules/mixto/lib/mixin.js"
+      },
+      {
+        "name": "no-case",
+        "version": "2.3.2",
+        "path": "node_modules/no-case/no-case.js"
+      },
+      {
+        "name": "once",
+        "version": "1.4.0",
+        "path": "node_modules/once/once.js"
+      },
+      {
+        "name": "param-case",
+        "version": "2.1.1",
+        "path": "node_modules/param-case/param-case.js"
+      },
+      {
+        "name": "pascal-case",
+        "version": "2.0.1",
+        "path": "node_modules/pascal-case/pascal-case.js"
+      },
+      {
+        "name": "path-case",
+        "version": "2.1.1",
+        "path": "node_modules/path-case/path-case.js"
+      },
+      {
+        "name": "path-is-absolute",
+        "version": "1.0.1",
+        "path": "node_modules/path-is-absolute/index.js"
+      },
+      {
+        "name": "property-accessors",
+        "version": "1.1.3",
+        "path": "node_modules/property-accessors/lib/property-accessors.js"
+      },
+      {
+        "name": "rimraf",
+        "version": "2.6.2",
+        "path": "node_modules/rimraf/rimraf.js"
+      },
+      {
+        "name": "rxjs",
+        "version": "5.4.3",
+        "path": "node_modules/rxjs/Rx.js"
+      },
+      {
+        "name": "sentence-case",
+        "version": "2.1.1",
+        "path": "node_modules/sentence-case/sentence-case.js"
+      },
+      {
+        "name": "snake-case",
+        "version": "2.1.0",
+        "path": "node_modules/snake-case/snake-case.js"
+      },
+      {
+        "name": "space-pen",
+        "version": "5.1.2",
+        "path": "node_modules/space-pen/lib/space-pen.js"
+      },
+      {
+        "name": "swap-case",
+        "version": "1.1.2",
+        "path": "node_modules/swap-case/swap-case.js"
+      },
+      {
+        "name": "symbol-observable",
+        "version": "1.0.4",
+        "path": "node_modules/symbol-observable/index.js"
+      },
+      {
+        "name": "title-case",
+        "version": "2.1.1",
+        "path": "node_modules/title-case/title-case.js"
+      },
+      {
+        "name": "underscore",
+        "version": "1.6.0",
+        "path": "node_modules/underscore/underscore.js"
+      },
+      {
+        "name": "underscore-plus",
+        "version": "1.6.6",
+        "path": "node_modules/underscore-plus/lib/underscore-plus.js"
+      },
+      {
+        "name": "upper-case",
+        "version": "1.1.3",
+        "path": "node_modules/upper-case/upper-case.js"
+      },
+      {
+        "name": "upper-case-first",
+        "version": "1.1.2",
+        "path": "node_modules/upper-case-first/upper-case-first.js"
+      },
+      {
+        "name": "wrappy",
+        "version": "1.0.2",
+        "path": "node_modules/wrappy/wrappy.js"
+      }
+    ],
+    "extensions": {
+      ".js": [
+        "lib/Dialog.js",
+        "lib/FileHelper.js",
+        "lib/ng2-generator-buddy-view.js",
+        "lib/ng2-generator-buddy.js",
+        "node_modules/atom-space-pen-views/lib/main.js",
+        "node_modules/atom-space-pen-views/lib/scroll-view.js",
+        "node_modules/atom-space-pen-views/lib/select-list-view.js",
+        "node_modules/atom-space-pen-views/lib/text-editor-view.js",
+        "node_modules/balanced-match/index.js",
+        "node_modules/brace-expansion/index.js",
+        "node_modules/camel-case/camel-case.js",
+        "node_modules/change-case/change-case.js",
+        "node_modules/concat-map/example/map.js",
+        "node_modules/concat-map/index.js",
+        "node_modules/constant-case/constant-case.js",
+        "node_modules/d/auto-bind.js",
+        "node_modules/d/index.js",
+        "node_modules/d/lazy.js",
+        "node_modules/dot-case/dot-case.js",
+        "node_modules/emissary/lib/behavior.js",
+        "node_modules/emissary/lib/emissary.js",
+        "node_modules/emissary/lib/emitter.js",
+        "node_modules/emissary/lib/helpers.js",
+        "node_modules/emissary/lib/signal.js",
+        "node_modules/emissary/lib/subscriber.js",
+        "node_modules/emissary/lib/subscription.js",
+        "node_modules/es5-ext/array/#/@@iterator/implement.js",
+        "node_modules/es5-ext/array/#/@@iterator/index.js",
+        "node_modules/es5-ext/array/#/@@iterator/is-implemented.js",
+        "node_modules/es5-ext/array/#/@@iterator/shim.js",
+        "node_modules/es5-ext/array/#/_compare-by-length.js",
+        "node_modules/es5-ext/array/#/binary-search.js",
+        "node_modules/es5-ext/array/#/clear.js",
+        "node_modules/es5-ext/array/#/compact.js",
+        "node_modules/es5-ext/array/#/concat/implement.js",
+        "node_modules/es5-ext/array/#/concat/index.js",
+        "node_modules/es5-ext/array/#/concat/is-implemented.js",
+        "node_modules/es5-ext/array/#/concat/shim.js",
+        "node_modules/es5-ext/array/#/contains.js",
+        "node_modules/es5-ext/array/#/copy-within/implement.js",
+        "node_modules/es5-ext/array/#/copy-within/index.js",
+        "node_modules/es5-ext/array/#/copy-within/is-implemented.js",
+        "node_modules/es5-ext/array/#/copy-within/shim.js",
+        "node_modules/es5-ext/array/#/diff.js",
+        "node_modules/es5-ext/array/#/e-index-of.js",
+        "node_modules/es5-ext/array/#/e-last-index-of.js",
+        "node_modules/es5-ext/array/#/entries/implement.js",
+        "node_modules/es5-ext/array/#/entries/index.js",
+        "node_modules/es5-ext/array/#/entries/is-implemented.js",
+        "node_modules/es5-ext/array/#/entries/shim.js",
+        "node_modules/es5-ext/array/#/exclusion.js",
+        "node_modules/es5-ext/array/#/fill/implement.js",
+        "node_modules/es5-ext/array/#/fill/index.js",
+        "node_modules/es5-ext/array/#/fill/is-implemented.js",
+        "node_modules/es5-ext/array/#/fill/shim.js",
+        "node_modules/es5-ext/array/#/filter/implement.js",
+        "node_modules/es5-ext/array/#/filter/index.js",
+        "node_modules/es5-ext/array/#/filter/is-implemented.js",
+        "node_modules/es5-ext/array/#/filter/shim.js",
+        "node_modules/es5-ext/array/#/find/implement.js",
+        "node_modules/es5-ext/array/#/find/index.js",
+        "node_modules/es5-ext/array/#/find/is-implemented.js",
+        "node_modules/es5-ext/array/#/find/shim.js",
+        "node_modules/es5-ext/array/#/find-index/implement.js",
+        "node_modules/es5-ext/array/#/find-index/index.js",
+        "node_modules/es5-ext/array/#/find-index/is-implemented.js",
+        "node_modules/es5-ext/array/#/find-index/shim.js",
+        "node_modules/es5-ext/array/#/first-index.js",
+        "node_modules/es5-ext/array/#/first.js",
+        "node_modules/es5-ext/array/#/flatten.js",
+        "node_modules/es5-ext/array/#/for-each-right.js",
+        "node_modules/es5-ext/array/#/group.js",
+        "node_modules/es5-ext/array/#/index.js",
+        "node_modules/es5-ext/array/#/indexes-of.js",
+        "node_modules/es5-ext/array/#/intersection.js",
+        "node_modules/es5-ext/array/#/is-copy.js",
+        "node_modules/es5-ext/array/#/is-empty.js",
+        "node_modules/es5-ext/array/#/is-uniq.js",
+        "node_modules/es5-ext/array/#/keys/implement.js",
+        "node_modules/es5-ext/array/#/keys/index.js",
+        "node_modules/es5-ext/array/#/keys/is-implemented.js",
+        "node_modules/es5-ext/array/#/keys/shim.js",
+        "node_modules/es5-ext/array/#/last-index.js",
+        "node_modules/es5-ext/array/#/last.js",
+        "node_modules/es5-ext/array/#/map/implement.js",
+        "node_modules/es5-ext/array/#/map/index.js",
+        "node_modules/es5-ext/array/#/map/is-implemented.js",
+        "node_modules/es5-ext/array/#/map/shim.js",
+        "node_modules/es5-ext/array/#/remove.js",
+        "node_modules/es5-ext/array/#/separate.js",
+        "node_modules/es5-ext/array/#/slice/implement.js",
+        "node_modules/es5-ext/array/#/slice/index.js",
+        "node_modules/es5-ext/array/#/slice/is-implemented.js",
+        "node_modules/es5-ext/array/#/slice/shim.js",
+        "node_modules/es5-ext/array/#/some-right.js",
+        "node_modules/es5-ext/array/#/splice/implement.js",
+        "node_modules/es5-ext/array/#/splice/index.js",
+        "node_modules/es5-ext/array/#/splice/is-implemented.js",
+        "node_modules/es5-ext/array/#/splice/shim.js",
+        "node_modules/es5-ext/array/#/uniq.js",
+        "node_modules/es5-ext/array/#/values/implement.js",
+        "node_modules/es5-ext/array/#/values/index.js",
+        "node_modules/es5-ext/array/#/values/is-implemented.js",
+        "node_modules/es5-ext/array/#/values/shim.js",
+        "node_modules/es5-ext/array/_is-extensible.js",
+        "node_modules/es5-ext/array/_sub-array-dummy-safe.js",
+        "node_modules/es5-ext/array/_sub-array-dummy.js",
+        "node_modules/es5-ext/array/from/implement.js",
+        "node_modules/es5-ext/array/from/index.js",
+        "node_modules/es5-ext/array/from/is-implemented.js",
+        "node_modules/es5-ext/array/from/shim.js",
+        "node_modules/es5-ext/array/generate.js",
+        "node_modules/es5-ext/array/index.js",
+        "node_modules/es5-ext/array/is-plain-array.js",
+        "node_modules/es5-ext/array/of/implement.js",
+        "node_modules/es5-ext/array/of/index.js",
+        "node_modules/es5-ext/array/of/is-implemented.js",
+        "node_modules/es5-ext/array/of/shim.js",
+        "node_modules/es5-ext/array/to-array.js",
+        "node_modules/es5-ext/array/valid-array.js",
+        "node_modules/es5-ext/boolean/index.js",
+        "node_modules/es5-ext/boolean/is-boolean.js",
+        "node_modules/es5-ext/date/#/copy.js",
+        "node_modules/es5-ext/date/#/days-in-month.js",
+        "node_modules/es5-ext/date/#/floor-day.js",
+        "node_modules/es5-ext/date/#/floor-month.js",
+        "node_modules/es5-ext/date/#/floor-year.js",
+        "node_modules/es5-ext/date/#/format.js",
+        "node_modules/es5-ext/date/#/index.js",
+        "node_modules/es5-ext/date/index.js",
+        "node_modules/es5-ext/date/is-date.js",
+        "node_modules/es5-ext/date/valid-date.js",
+        "node_modules/es5-ext/error/#/index.js",
+        "node_modules/es5-ext/error/#/throw.js",
+        "node_modules/es5-ext/error/custom.js",
+        "node_modules/es5-ext/error/index.js",
+        "node_modules/es5-ext/error/is-error.js",
+        "node_modules/es5-ext/error/valid-error.js",
+        "node_modules/es5-ext/function/#/compose.js",
+        "node_modules/es5-ext/function/#/copy.js",
+        "node_modules/es5-ext/function/#/curry.js",
+        "node_modules/es5-ext/function/#/index.js",
+        "node_modules/es5-ext/function/#/lock.js",
+        "node_modules/es5-ext/function/#/not.js",
+        "node_modules/es5-ext/function/#/partial.js",
+        "node_modules/es5-ext/function/#/spread.js",
+        "node_modules/es5-ext/function/#/to-string-tokens.js",
+        "node_modules/es5-ext/function/_define-length.js",
+        "node_modules/es5-ext/function/constant.js",
+        "node_modules/es5-ext/function/identity.js",
+        "node_modules/es5-ext/function/index.js",
+        "node_modules/es5-ext/function/invoke.js",
+        "node_modules/es5-ext/function/is-arguments.js",
+        "node_modules/es5-ext/function/is-function.js",
+        "node_modules/es5-ext/function/noop.js",
+        "node_modules/es5-ext/function/pluck.js",
+        "node_modules/es5-ext/function/valid-function.js",
+        "node_modules/es5-ext/global.js",
+        "node_modules/es5-ext/index.js",
+        "node_modules/es5-ext/iterable/for-each.js",
+        "node_modules/es5-ext/iterable/index.js",
+        "node_modules/es5-ext/iterable/is.js",
+        "node_modules/es5-ext/iterable/validate-object.js",
+        "node_modules/es5-ext/iterable/validate.js",
+        "node_modules/es5-ext/json/index.js",
+        "node_modules/es5-ext/json/safe-stringify.js",
+        "node_modules/es5-ext/math/_pack-ieee754.js",
+        "node_modules/es5-ext/math/_unpack-ieee754.js",
+        "node_modules/es5-ext/math/acosh/implement.js",
+        "node_modules/es5-ext/math/acosh/index.js",
+        "node_modules/es5-ext/math/acosh/is-implemented.js",
+        "node_modules/es5-ext/math/acosh/shim.js",
+        "node_modules/es5-ext/math/asinh/implement.js",
+        "node_modules/es5-ext/math/asinh/index.js",
+        "node_modules/es5-ext/math/asinh/is-implemented.js",
+        "node_modules/es5-ext/math/asinh/shim.js",
+        "node_modules/es5-ext/math/atanh/implement.js",
+        "node_modules/es5-ext/math/atanh/index.js",
+        "node_modules/es5-ext/math/atanh/is-implemented.js",
+        "node_modules/es5-ext/math/atanh/shim.js",
+        "node_modules/es5-ext/math/cbrt/implement.js",
+        "node_modules/es5-ext/math/cbrt/index.js",
+        "node_modules/es5-ext/math/cbrt/is-implemented.js",
+        "node_modules/es5-ext/math/cbrt/shim.js",
+        "node_modules/es5-ext/math/clz32/implement.js",
+        "node_modules/es5-ext/math/clz32/index.js",
+        "node_modules/es5-ext/math/clz32/is-implemented.js",
+        "node_modules/es5-ext/math/clz32/shim.js",
+        "node_modules/es5-ext/math/cosh/implement.js",
+        "node_modules/es5-ext/math/cosh/index.js",
+        "node_modules/es5-ext/math/cosh/is-implemented.js",
+        "node_modules/es5-ext/math/cosh/shim.js",
+        "node_modules/es5-ext/math/expm1/implement.js",
+        "node_modules/es5-ext/math/expm1/index.js",
+        "node_modules/es5-ext/math/expm1/is-implemented.js",
+        "node_modules/es5-ext/math/expm1/shim.js",
+        "node_modules/es5-ext/math/fround/implement.js",
+        "node_modules/es5-ext/math/fround/index.js",
+        "node_modules/es5-ext/math/fround/is-implemented.js",
+        "node_modules/es5-ext/math/fround/shim.js",
+        "node_modules/es5-ext/math/hypot/implement.js",
+        "node_modules/es5-ext/math/hypot/index.js",
+        "node_modules/es5-ext/math/hypot/is-implemented.js",
+        "node_modules/es5-ext/math/hypot/shim.js",
+        "node_modules/es5-ext/math/imul/implement.js",
+        "node_modules/es5-ext/math/imul/index.js",
+        "node_modules/es5-ext/math/imul/is-implemented.js",
+        "node_modules/es5-ext/math/imul/shim.js",
+        "node_modules/es5-ext/math/index.js",
+        "node_modules/es5-ext/math/log10/implement.js",
+        "node_modules/es5-ext/math/log10/index.js",
+        "node_modules/es5-ext/math/log10/is-implemented.js",
+        "node_modules/es5-ext/math/log10/shim.js",
+        "node_modules/es5-ext/math/log1p/implement.js",
+        "node_modules/es5-ext/math/log1p/index.js",
+        "node_modules/es5-ext/math/log1p/is-implemented.js",
+        "node_modules/es5-ext/math/log1p/shim.js",
+        "node_modules/es5-ext/math/log2/implement.js",
+        "node_modules/es5-ext/math/log2/index.js",
+        "node_modules/es5-ext/math/log2/is-implemented.js",
+        "node_modules/es5-ext/math/log2/shim.js",
+        "node_modules/es5-ext/math/sign/implement.js",
+        "node_modules/es5-ext/math/sign/index.js",
+        "node_modules/es5-ext/math/sign/is-implemented.js",
+        "node_modules/es5-ext/math/sign/shim.js",
+        "node_modules/es5-ext/math/sinh/implement.js",
+        "node_modules/es5-ext/math/sinh/index.js",
+        "node_modules/es5-ext/math/sinh/is-implemented.js",
+        "node_modules/es5-ext/math/sinh/shim.js",
+        "node_modules/es5-ext/math/tanh/implement.js",
+        "node_modules/es5-ext/math/tanh/index.js",
+        "node_modules/es5-ext/math/tanh/is-implemented.js",
+        "node_modules/es5-ext/math/tanh/shim.js",
+        "node_modules/es5-ext/math/trunc/implement.js",
+        "node_modules/es5-ext/math/trunc/index.js",
+        "node_modules/es5-ext/math/trunc/is-implemented.js",
+        "node_modules/es5-ext/math/trunc/shim.js",
+        "node_modules/es5-ext/node_modules/d/auto-bind.js",
+        "node_modules/es5-ext/node_modules/d/index.js",
+        "node_modules/es5-ext/node_modules/d/lazy.js",
+        "node_modules/es5-ext/node_modules/es6-iterator/#/chain.js",
+        "node_modules/es5-ext/node_modules/es6-iterator/array.js",
+        "node_modules/es5-ext/node_modules/es6-iterator/for-of.js",
+        "node_modules/es5-ext/node_modules/es6-iterator/get.js",
+        "node_modules/es5-ext/node_modules/es6-iterator/index.js",
+        "node_modules/es5-ext/node_modules/es6-iterator/is-iterable.js",
+        "node_modules/es5-ext/node_modules/es6-iterator/string.js",
+        "node_modules/es5-ext/node_modules/es6-iterator/valid-iterable.js",
+        "node_modules/es5-ext/node_modules/es6-symbol/implement.js",
+        "node_modules/es5-ext/node_modules/es6-symbol/index.js",
+        "node_modules/es5-ext/node_modules/es6-symbol/is-implemented.js",
+        "node_modules/es5-ext/node_modules/es6-symbol/is-native-implemented.js",
+        "node_modules/es5-ext/node_modules/es6-symbol/is-symbol.js",
+        "node_modules/es5-ext/node_modules/es6-symbol/polyfill.js",
+        "node_modules/es5-ext/node_modules/es6-symbol/validate-symbol.js",
+        "node_modules/es5-ext/number/#/index.js",
+        "node_modules/es5-ext/number/#/pad.js",
+        "node_modules/es5-ext/number/epsilon/implement.js",
+        "node_modules/es5-ext/number/epsilon/index.js",
+        "node_modules/es5-ext/number/epsilon/is-implemented.js",
+        "node_modules/es5-ext/number/index.js",
+        "node_modules/es5-ext/number/is-finite/implement.js",
+        "node_modules/es5-ext/number/is-finite/index.js",
+        "node_modules/es5-ext/number/is-finite/is-implemented.js",
+        "node_modules/es5-ext/number/is-finite/shim.js",
+        "node_modules/es5-ext/number/is-integer/implement.js",
+        "node_modules/es5-ext/number/is-integer/index.js",
+        "node_modules/es5-ext/number/is-integer/is-implemented.js",
+        "node_modules/es5-ext/number/is-integer/shim.js",
+        "node_modules/es5-ext/number/is-nan/implement.js",
+        "node_modules/es5-ext/number/is-nan/index.js",
+        "node_modules/es5-ext/number/is-nan/is-implemented.js",
+        "node_modules/es5-ext/number/is-nan/shim.js",
+        "node_modules/es5-ext/number/is-natural.js",
+        "node_modules/es5-ext/number/is-number.js",
+        "node_modules/es5-ext/number/is-safe-integer/implement.js",
+        "node_modules/es5-ext/number/is-safe-integer/index.js",
+        "node_modules/es5-ext/number/is-safe-integer/is-implemented.js",
+        "node_modules/es5-ext/number/is-safe-integer/shim.js",
+        "node_modules/es5-ext/number/max-safe-integer/implement.js",
+        "node_modules/es5-ext/number/max-safe-integer/index.js",
+        "node_modules/es5-ext/number/max-safe-integer/is-implemented.js",
+        "node_modules/es5-ext/number/min-safe-integer/implement.js",
+        "node_modules/es5-ext/number/min-safe-integer/index.js",
+        "node_modules/es5-ext/number/min-safe-integer/is-implemented.js",
+        "node_modules/es5-ext/number/to-integer.js",
+        "node_modules/es5-ext/number/to-pos-integer.js",
+        "node_modules/es5-ext/number/to-uint32.js",
+        "node_modules/es5-ext/object/_iterate.js",
+        "node_modules/es5-ext/object/assign/implement.js",
+        "node_modules/es5-ext/object/assign/index.js",
+        "node_modules/es5-ext/object/assign/is-implemented.js",
+        "node_modules/es5-ext/object/assign/shim.js",
+        "node_modules/es5-ext/object/clear.js",
+        "node_modules/es5-ext/object/compact.js",
+        "node_modules/es5-ext/object/compare.js",
+        "node_modules/es5-ext/object/copy-deep.js",
+        "node_modules/es5-ext/object/copy.js",
+        "node_modules/es5-ext/object/count.js",
+        "node_modules/es5-ext/object/create.js",
+        "node_modules/es5-ext/object/ensure-array.js",
+        "node_modules/es5-ext/object/ensure-finite-number.js",
+        "node_modules/es5-ext/object/ensure-natural-number-value.js",
+        "node_modules/es5-ext/object/ensure-natural-number.js",
+        "node_modules/es5-ext/object/ensure-promise.js",
+        "node_modules/es5-ext/object/eq.js",
+        "node_modules/es5-ext/object/every.js",
+        "node_modules/es5-ext/object/filter.js",
+        "node_modules/es5-ext/object/find-key.js",
+        "node_modules/es5-ext/object/find.js",
+        "node_modules/es5-ext/object/first-key.js",
+        "node_modules/es5-ext/object/flatten.js",
+        "node_modules/es5-ext/object/for-each.js",
+        "node_modules/es5-ext/object/get-property-names.js",
+        "node_modules/es5-ext/object/index.js",
+        "node_modules/es5-ext/object/is-array-like.js",
+        "node_modules/es5-ext/object/is-callable.js",
+        "node_modules/es5-ext/object/is-copy-deep.js",
+        "node_modules/es5-ext/object/is-copy.js",
+        "node_modules/es5-ext/object/is-empty.js",
+        "node_modules/es5-ext/object/is-finite-number.js",
+        "node_modules/es5-ext/object/is-number-value.js",
+        "node_modules/es5-ext/object/is-object.js",
+        "node_modules/es5-ext/object/is-plain-object.js",
+        "node_modules/es5-ext/object/is-promise.js",
+        "node_modules/es5-ext/object/is-value.js",
+        "node_modules/es5-ext/object/is.js",
+        "node_modules/es5-ext/object/key-of.js",
+        "node_modules/es5-ext/object/keys/implement.js",
+        "node_modules/es5-ext/object/keys/index.js",
+        "node_modules/es5-ext/object/keys/is-implemented.js",
+        "node_modules/es5-ext/object/keys/shim.js",
+        "node_modules/es5-ext/object/map-keys.js",
+        "node_modules/es5-ext/object/map.js",
+        "node_modules/es5-ext/object/mixin-prototypes.js",
+        "node_modules/es5-ext/object/mixin.js",
+        "node_modules/es5-ext/object/normalize-options.js",
+        "node_modules/es5-ext/object/primitive-set.js",
+        "node_modules/es5-ext/object/safe-traverse.js",
+        "node_modules/es5-ext/object/serialize.js",
+        "node_modules/es5-ext/object/set-prototype-of/implement.js",
+        "node_modules/es5-ext/object/set-prototype-of/index.js",
+        "node_modules/es5-ext/object/set-prototype-of/is-implemented.js",
+        "node_modules/es5-ext/object/set-prototype-of/shim.js",
+        "node_modules/es5-ext/object/some.js",
+        "node_modules/es5-ext/object/to-array.js",
+        "node_modules/es5-ext/object/unserialize.js",
+        "node_modules/es5-ext/object/valid-callable.js",
+        "node_modules/es5-ext/object/valid-object.js",
+        "node_modules/es5-ext/object/valid-value.js",
+        "node_modules/es5-ext/object/validate-array-like-object.js",
+        "node_modules/es5-ext/object/validate-array-like.js",
+        "node_modules/es5-ext/object/validate-stringifiable-value.js",
+        "node_modules/es5-ext/object/validate-stringifiable.js",
+        "node_modules/es5-ext/optional-chaining.js",
+        "node_modules/es5-ext/reg-exp/#/index.js",
+        "node_modules/es5-ext/reg-exp/#/is-sticky.js",
+        "node_modules/es5-ext/reg-exp/#/is-unicode.js",
+        "node_modules/es5-ext/reg-exp/#/match/implement.js",
+        "node_modules/es5-ext/reg-exp/#/match/index.js",
+        "node_modules/es5-ext/reg-exp/#/match/is-implemented.js",
+        "node_modules/es5-ext/reg-exp/#/match/shim.js",
+        "node_modules/es5-ext/reg-exp/#/replace/implement.js",
+        "node_modules/es5-ext/reg-exp/#/replace/index.js",
+        "node_modules/es5-ext/reg-exp/#/replace/is-implemented.js",
+        "node_modules/es5-ext/reg-exp/#/replace/shim.js",
+        "node_modules/es5-ext/reg-exp/#/search/implement.js",
+        "node_modules/es5-ext/reg-exp/#/search/index.js",
+        "node_modules/es5-ext/reg-exp/#/search/is-implemented.js",
+        "node_modules/es5-ext/reg-exp/#/search/shim.js",
+        "node_modules/es5-ext/reg-exp/#/split/implement.js",
+        "node_modules/es5-ext/reg-exp/#/split/index.js",
+        "node_modules/es5-ext/reg-exp/#/split/is-implemented.js",
+        "node_modules/es5-ext/reg-exp/#/split/shim.js",
+        "node_modules/es5-ext/reg-exp/#/sticky/implement.js",
+        "node_modules/es5-ext/reg-exp/#/sticky/is-implemented.js",
+        "node_modules/es5-ext/reg-exp/#/unicode/implement.js",
+        "node_modules/es5-ext/reg-exp/#/unicode/is-implemented.js",
+        "node_modules/es5-ext/reg-exp/escape.js",
+        "node_modules/es5-ext/reg-exp/index.js",
+        "node_modules/es5-ext/reg-exp/is-reg-exp.js",
+        "node_modules/es5-ext/reg-exp/valid-reg-exp.js",
+        "node_modules/es5-ext/safe-to-string.js",
+        "node_modules/es5-ext/string/#/@@iterator/implement.js",
+        "node_modules/es5-ext/string/#/@@iterator/index.js",
+        "node_modules/es5-ext/string/#/@@iterator/is-implemented.js",
+        "node_modules/es5-ext/string/#/@@iterator/shim.js",
+        "node_modules/es5-ext/string/#/at.js",
+        "node_modules/es5-ext/string/#/camel-to-hyphen.js",
+        "node_modules/es5-ext/string/#/capitalize.js",
+        "node_modules/es5-ext/string/#/case-insensitive-compare.js",
+        "node_modules/es5-ext/string/#/code-point-at/implement.js",
+        "node_modules/es5-ext/string/#/code-point-at/index.js",
+        "node_modules/es5-ext/string/#/code-point-at/is-implemented.js",
+        "node_modules/es5-ext/string/#/code-point-at/shim.js",
+        "node_modules/es5-ext/string/#/contains/implement.js",
+        "node_modules/es5-ext/string/#/contains/index.js",
+        "node_modules/es5-ext/string/#/contains/is-implemented.js",
+        "node_modules/es5-ext/string/#/contains/shim.js",
+        "node_modules/es5-ext/string/#/count.js",
+        "node_modules/es5-ext/string/#/ends-with/implement.js",
+        "node_modules/es5-ext/string/#/ends-with/index.js",
+        "node_modules/es5-ext/string/#/ends-with/is-implemented.js",
+        "node_modules/es5-ext/string/#/ends-with/shim.js",
+        "node_modules/es5-ext/string/#/hyphen-to-camel.js",
+        "node_modules/es5-ext/string/#/indent.js",
+        "node_modules/es5-ext/string/#/index.js",
+        "node_modules/es5-ext/string/#/last.js",
+        "node_modules/es5-ext/string/#/normalize/_data.js",
+        "node_modules/es5-ext/string/#/normalize/implement.js",
+        "node_modules/es5-ext/string/#/normalize/index.js",
+        "node_modules/es5-ext/string/#/normalize/is-implemented.js",
+        "node_modules/es5-ext/string/#/normalize/shim.js",
+        "node_modules/es5-ext/string/#/pad.js",
+        "node_modules/es5-ext/string/#/plain-replace-all.js",
+        "node_modules/es5-ext/string/#/plain-replace.js",
+        "node_modules/es5-ext/string/#/repeat/implement.js",
+        "node_modules/es5-ext/string/#/repeat/index.js",
+        "node_modules/es5-ext/string/#/repeat/is-implemented.js",
+        "node_modules/es5-ext/string/#/repeat/shim.js",
+        "node_modules/es5-ext/string/#/starts-with/implement.js",
+        "node_modules/es5-ext/string/#/starts-with/index.js",
+        "node_modules/es5-ext/string/#/starts-with/is-implemented.js",
+        "node_modules/es5-ext/string/#/starts-with/shim.js",
+        "node_modules/es5-ext/string/#/uncapitalize.js",
+        "node_modules/es5-ext/string/format-method.js",
+        "node_modules/es5-ext/string/from-code-point/implement.js",
+        "node_modules/es5-ext/string/from-code-point/index.js",
+        "node_modules/es5-ext/string/from-code-point/is-implemented.js",
+        "node_modules/es5-ext/string/from-code-point/shim.js",
+        "node_modules/es5-ext/string/index.js",
+        "node_modules/es5-ext/string/is-string.js",
+        "node_modules/es5-ext/string/random-uniq.js",
+        "node_modules/es5-ext/string/raw/implement.js",
+        "node_modules/es5-ext/string/raw/index.js",
+        "node_modules/es5-ext/string/raw/is-implemented.js",
+        "node_modules/es5-ext/string/raw/shim.js",
+        "node_modules/es5-ext/to-short-string-representation.js",
+        "node_modules/es6-iterator/#/chain.js",
+        "node_modules/es6-iterator/array.js",
+        "node_modules/es6-iterator/for-of.js",
+        "node_modules/es6-iterator/get.js",
+        "node_modules/es6-iterator/index.js",
+        "node_modules/es6-iterator/is-iterable.js",
+        "node_modules/es6-iterator/string.js",
+        "node_modules/es6-iterator/valid-iterable.js",
+        "node_modules/es6-symbol/implement.js",
+        "node_modules/es6-symbol/index.js",
+        "node_modules/es6-symbol/is-implemented.js",
+        "node_modules/es6-symbol/is-native-implemented.js",
+        "node_modules/es6-symbol/is-symbol.js",
+        "node_modules/es6-symbol/polyfill.js",
+        "node_modules/es6-symbol/validate-symbol.js",
+        "node_modules/es6-weak-map/implement.js",
+        "node_modules/es6-weak-map/index.js",
+        "node_modules/es6-weak-map/is-implemented.js",
+        "node_modules/es6-weak-map/is-native-implemented.js",
+        "node_modules/es6-weak-map/is-weak-map.js",
+        "node_modules/es6-weak-map/polyfill.js",
+        "node_modules/es6-weak-map/valid-weak-map.js",
+        "node_modules/fs-extra/lib/copy/copy.js",
+        "node_modules/fs-extra/lib/copy/index.js",
+        "node_modules/fs-extra/lib/copy/ncp.js",
+        "node_modules/fs-extra/lib/copy-sync/copy-file-sync.js",
+        "node_modules/fs-extra/lib/copy-sync/copy-sync.js",
+        "node_modules/fs-extra/lib/copy-sync/index.js",
+        "node_modules/fs-extra/lib/empty/index.js",
+        "node_modules/fs-extra/lib/ensure/file.js",
+        "node_modules/fs-extra/lib/ensure/index.js",
+        "node_modules/fs-extra/lib/ensure/link.js",
+        "node_modules/fs-extra/lib/ensure/symlink-paths.js",
+        "node_modules/fs-extra/lib/ensure/symlink-type.js",
+        "node_modules/fs-extra/lib/ensure/symlink.js",
+        "node_modules/fs-extra/lib/index.js",
+        "node_modules/fs-extra/lib/json/index.js",
+        "node_modules/fs-extra/lib/json/jsonfile.js",
+        "node_modules/fs-extra/lib/json/output-json-sync.js",
+        "node_modules/fs-extra/lib/json/output-json.js",
+        "node_modules/fs-extra/lib/mkdirs/index.js",
+        "node_modules/fs-extra/lib/mkdirs/mkdirs-sync.js",
+        "node_modules/fs-extra/lib/mkdirs/mkdirs.js",
+        "node_modules/fs-extra/lib/mkdirs/win32.js",
+        "node_modules/fs-extra/lib/move/index.js",
+        "node_modules/fs-extra/lib/output/index.js",
+        "node_modules/fs-extra/lib/remove/index.js",
+        "node_modules/fs-extra/lib/util/assign.js",
+        "node_modules/fs-extra/lib/util/utimes.js",
+        "node_modules/fs-extra/lib/walk/index.js",
+        "node_modules/fs.realpath/index.js",
+        "node_modules/fs.realpath/old.js",
+        "node_modules/fuzzaldrin/lib/filter.js",
+        "node_modules/fuzzaldrin/lib/fuzzaldrin.js",
+        "node_modules/fuzzaldrin/lib/matcher.js",
+        "node_modules/fuzzaldrin/lib/scorer.js",
+        "node_modules/glob/common.js",
+        "node_modules/glob/glob.js",
+        "node_modules/glob/sync.js",
+        "node_modules/graceful-fs/fs.js",
+        "node_modules/graceful-fs/graceful-fs.js",
+        "node_modules/graceful-fs/legacy-streams.js",
+        "node_modules/graceful-fs/polyfills.js",
+        "node_modules/grim/lib/deprecation.js",
+        "node_modules/grim/lib/grim.js",
+        "node_modules/header-case/header-case.js",
+        "node_modules/inflight/inflight.js",
+        "node_modules/inherits/inherits.js",
+        "node_modules/inherits/inherits_browser.js",
+        "node_modules/is-lower-case/is-lower-case.js",
+        "node_modules/is-upper-case/is-upper-case.js",
+        "node_modules/jquery/dist/jquery.js",
+        "node_modules/jquery/dist/jquery.min.js",
+        "node_modules/jquery/src/ajax/jsonp.js",
+        "node_modules/jquery/src/ajax/load.js",
+        "node_modules/jquery/src/ajax/parseJSON.js",
+        "node_modules/jquery/src/ajax/parseXML.js",
+        "node_modules/jquery/src/ajax/script.js",
+        "node_modules/jquery/src/ajax/var/nonce.js",
+        "node_modules/jquery/src/ajax/var/rquery.js",
+        "node_modules/jquery/src/ajax/xhr.js",
+        "node_modules/jquery/src/ajax.js",
+        "node_modules/jquery/src/attributes/attr.js",
+        "node_modules/jquery/src/attributes/classes.js",
+        "node_modules/jquery/src/attributes/prop.js",
+        "node_modules/jquery/src/attributes/support.js",
+        "node_modules/jquery/src/attributes/val.js",
+        "node_modules/jquery/src/attributes.js",
+        "node_modules/jquery/src/callbacks.js",
+        "node_modules/jquery/src/core/access.js",
+        "node_modules/jquery/src/core/init.js",
+        "node_modules/jquery/src/core/parseHTML.js",
+        "node_modules/jquery/src/core/ready.js",
+        "node_modules/jquery/src/core/var/rsingleTag.js",
+        "node_modules/jquery/src/core.js",
+        "node_modules/jquery/src/css/addGetHookIf.js",
+        "node_modules/jquery/src/css/curCSS.js",
+        "node_modules/jquery/src/css/defaultDisplay.js",
+        "node_modules/jquery/src/css/hiddenVisibleSelectors.js",
+        "node_modules/jquery/src/css/support.js",
+        "node_modules/jquery/src/css/swap.js",
+        "node_modules/jquery/src/css/var/cssExpand.js",
+        "node_modules/jquery/src/css/var/getStyles.js",
+        "node_modules/jquery/src/css/var/isHidden.js",
+        "node_modules/jquery/src/css/var/rmargin.js",
+        "node_modules/jquery/src/css/var/rnumnonpx.js",
+        "node_modules/jquery/src/css.js",
+        "node_modules/jquery/src/data/Data.js",
+        "node_modules/jquery/src/data/accepts.js",
+        "node_modules/jquery/src/data/var/data_priv.js",
+        "node_modules/jquery/src/data/var/data_user.js",
+        "node_modules/jquery/src/data.js",
+        "node_modules/jquery/src/deferred.js",
+        "node_modules/jquery/src/deprecated.js",
+        "node_modules/jquery/src/dimensions.js",
+        "node_modules/jquery/src/effects/Tween.js",
+        "node_modules/jquery/src/effects/animatedSelector.js",
+        "node_modules/jquery/src/effects.js",
+        "node_modules/jquery/src/event/ajax.js",
+        "node_modules/jquery/src/event/alias.js",
+        "node_modules/jquery/src/event/support.js",
+        "node_modules/jquery/src/event.js",
+        "node_modules/jquery/src/exports/amd.js",
+        "node_modules/jquery/src/exports/global.js",
+        "node_modules/jquery/src/intro.js",
+        "node_modules/jquery/src/jquery.js",
+        "node_modules/jquery/src/manipulation/_evalUrl.js",
+        "node_modules/jquery/src/manipulation/support.js",
+        "node_modules/jquery/src/manipulation/var/rcheckableType.js",
+        "node_modules/jquery/src/manipulation.js",
+        "node_modules/jquery/src/offset.js",
+        "node_modules/jquery/src/outro.js",
+        "node_modules/jquery/src/queue/delay.js",
+        "node_modules/jquery/src/queue.js",
+        "node_modules/jquery/src/selector-native.js",
+        "node_modules/jquery/src/selector-sizzle.js",
+        "node_modules/jquery/src/selector.js",
+        "node_modules/jquery/src/serialize.js",
+        "node_modules/jquery/src/sizzle/dist/sizzle.js",
+        "node_modules/jquery/src/sizzle/dist/sizzle.min.js",
+        "node_modules/jquery/src/traversing/findFilter.js",
+        "node_modules/jquery/src/traversing/var/rneedsContext.js",
+        "node_modules/jquery/src/traversing.js",
+        "node_modules/jquery/src/var/arr.js",
+        "node_modules/jquery/src/var/class2type.js",
+        "node_modules/jquery/src/var/concat.js",
+        "node_modules/jquery/src/var/hasOwn.js",
+        "node_modules/jquery/src/var/indexOf.js",
+        "node_modules/jquery/src/var/pnum.js",
+        "node_modules/jquery/src/var/push.js",
+        "node_modules/jquery/src/var/rnotwhite.js",
+        "node_modules/jquery/src/var/slice.js",
+        "node_modules/jquery/src/var/strundefined.js",
+        "node_modules/jquery/src/var/support.js",
+        "node_modules/jquery/src/var/toString.js",
+        "node_modules/jquery/src/wrap.js",
+        "node_modules/jsonfile/index.js",
+        "node_modules/klaw/src/assign.js",
+        "node_modules/klaw/src/index.js",
+        "node_modules/lower-case/lower-case.js",
+        "node_modules/lower-case-first/lower-case-first.js",
+        "node_modules/minimatch/minimatch.js",
+        "node_modules/mixto/lib/mixin.js",
+        "node_modules/no-case/no-case.js",
+        "node_modules/no-case/vendor/camel-case-regexp.js",
+        "node_modules/no-case/vendor/camel-case-upper-regexp.js",
+        "node_modules/no-case/vendor/non-word-regexp.js",
+        "node_modules/once/once.js",
+        "node_modules/param-case/param-case.js",
+        "node_modules/pascal-case/pascal-case.js",
+        "node_modules/path-case/path-case.js",
+        "node_modules/path-is-absolute/index.js",
+        "node_modules/property-accessors/lib/property-accessors.js",
+        "node_modules/rimraf/bin.js",
+        "node_modules/rimraf/rimraf.js",
+        "node_modules/rxjs/AsyncSubject.js",
+        "node_modules/rxjs/BehaviorSubject.js",
+        "node_modules/rxjs/InnerSubscriber.js",
+        "node_modules/rxjs/Notification.js",
+        "node_modules/rxjs/Observable.js",
+        "node_modules/rxjs/Observer.js",
+        "node_modules/rxjs/Operator.js",
+        "node_modules/rxjs/OuterSubscriber.js",
+        "node_modules/rxjs/ReplaySubject.js",
+        "node_modules/rxjs/Rx.js",
+        "node_modules/rxjs/Scheduler.js",
+        "node_modules/rxjs/Subject.js",
+        "node_modules/rxjs/SubjectSubscription.js",
+        "node_modules/rxjs/Subscriber.js",
+        "node_modules/rxjs/Subscription.js",
+        "node_modules/rxjs/add/observable/bindCallback.js",
+        "node_modules/rxjs/add/observable/bindNodeCallback.js",
+        "node_modules/rxjs/add/observable/combineLatest.js",
+        "node_modules/rxjs/add/observable/concat.js",
+        "node_modules/rxjs/add/observable/defer.js",
+        "node_modules/rxjs/add/observable/dom/ajax.js",
+        "node_modules/rxjs/add/observable/dom/webSocket.js",
+        "node_modules/rxjs/add/observable/empty.js",
+        "node_modules/rxjs/add/observable/forkJoin.js",
+        "node_modules/rxjs/add/observable/from.js",
+        "node_modules/rxjs/add/observable/fromEvent.js",
+        "node_modules/rxjs/add/observable/fromEventPattern.js",
+        "node_modules/rxjs/add/observable/fromPromise.js",
+        "node_modules/rxjs/add/observable/generate.js",
+        "node_modules/rxjs/add/observable/if.js",
+        "node_modules/rxjs/add/observable/interval.js",
+        "node_modules/rxjs/add/observable/merge.js",
+        "node_modules/rxjs/add/observable/never.js",
+        "node_modules/rxjs/add/observable/of.js",
+        "node_modules/rxjs/add/observable/onErrorResumeNext.js",
+        "node_modules/rxjs/add/observable/pairs.js",
+        "node_modules/rxjs/add/observable/race.js",
+        "node_modules/rxjs/add/observable/range.js",
+        "node_modules/rxjs/add/observable/throw.js",
+        "node_modules/rxjs/add/observable/timer.js",
+        "node_modules/rxjs/add/observable/using.js",
+        "node_modules/rxjs/add/observable/zip.js",
+        "node_modules/rxjs/add/operator/audit.js",
+        "node_modules/rxjs/add/operator/auditTime.js",
+        "node_modules/rxjs/add/operator/buffer.js",
+        "node_modules/rxjs/add/operator/bufferCount.js",
+        "node_modules/rxjs/add/operator/bufferTime.js",
+        "node_modules/rxjs/add/operator/bufferToggle.js",
+        "node_modules/rxjs/add/operator/bufferWhen.js",
+        "node_modules/rxjs/add/operator/catch.js",
+        "node_modules/rxjs/add/operator/combineAll.js",
+        "node_modules/rxjs/add/operator/combineLatest.js",
+        "node_modules/rxjs/add/operator/concat.js",
+        "node_modules/rxjs/add/operator/concatAll.js",
+        "node_modules/rxjs/add/operator/concatMap.js",
+        "node_modules/rxjs/add/operator/concatMapTo.js",
+        "node_modules/rxjs/add/operator/count.js",
+        "node_modules/rxjs/add/operator/debounce.js",
+        "node_modules/rxjs/add/operator/debounceTime.js",
+        "node_modules/rxjs/add/operator/defaultIfEmpty.js",
+        "node_modules/rxjs/add/operator/delay.js",
+        "node_modules/rxjs/add/operator/delayWhen.js",
+        "node_modules/rxjs/add/operator/dematerialize.js",
+        "node_modules/rxjs/add/operator/distinct.js",
+        "node_modules/rxjs/add/operator/distinctUntilChanged.js",
+        "node_modules/rxjs/add/operator/distinctUntilKeyChanged.js",
+        "node_modules/rxjs/add/operator/do.js",
+        "node_modules/rxjs/add/operator/elementAt.js",
+        "node_modules/rxjs/add/operator/every.js",
+        "node_modules/rxjs/add/operator/exhaust.js",
+        "node_modules/rxjs/add/operator/exhaustMap.js",
+        "node_modules/rxjs/add/operator/expand.js",
+        "node_modules/rxjs/add/operator/filter.js",
+        "node_modules/rxjs/add/operator/finally.js",
+        "node_modules/rxjs/add/operator/find.js",
+        "node_modules/rxjs/add/operator/findIndex.js",
+        "node_modules/rxjs/add/operator/first.js",
+        "node_modules/rxjs/add/operator/groupBy.js",
+        "node_modules/rxjs/add/operator/ignoreElements.js",
+        "node_modules/rxjs/add/operator/isEmpty.js",
+        "node_modules/rxjs/add/operator/last.js",
+        "node_modules/rxjs/add/operator/let.js",
+        "node_modules/rxjs/add/operator/map.js",
+        "node_modules/rxjs/add/operator/mapTo.js",
+        "node_modules/rxjs/add/operator/materialize.js",
+        "node_modules/rxjs/add/operator/max.js",
+        "node_modules/rxjs/add/operator/merge.js",
+        "node_modules/rxjs/add/operator/mergeAll.js",
+        "node_modules/rxjs/add/operator/mergeMap.js",
+        "node_modules/rxjs/add/operator/mergeMapTo.js",
+        "node_modules/rxjs/add/operator/mergeScan.js",
+        "node_modules/rxjs/add/operator/min.js",
+        "node_modules/rxjs/add/operator/multicast.js",
+        "node_modules/rxjs/add/operator/observeOn.js",
+        "node_modules/rxjs/add/operator/onErrorResumeNext.js",
+        "node_modules/rxjs/add/operator/pairwise.js",
+        "node_modules/rxjs/add/operator/partition.js",
+        "node_modules/rxjs/add/operator/pluck.js",
+        "node_modules/rxjs/add/operator/publish.js",
+        "node_modules/rxjs/add/operator/publishBehavior.js",
+        "node_modules/rxjs/add/operator/publishLast.js",
+        "node_modules/rxjs/add/operator/publishReplay.js",
+        "node_modules/rxjs/add/operator/race.js",
+        "node_modules/rxjs/add/operator/reduce.js",
+        "node_modules/rxjs/add/operator/repeat.js",
+        "node_modules/rxjs/add/operator/repeatWhen.js",
+        "node_modules/rxjs/add/operator/retry.js",
+        "node_modules/rxjs/add/operator/retryWhen.js",
+        "node_modules/rxjs/add/operator/sample.js",
+        "node_modules/rxjs/add/operator/sampleTime.js",
+        "node_modules/rxjs/add/operator/scan.js",
+        "node_modules/rxjs/add/operator/sequenceEqual.js",
+        "node_modules/rxjs/add/operator/share.js",
+        "node_modules/rxjs/add/operator/shareReplay.js",
+        "node_modules/rxjs/add/operator/single.js",
+        "node_modules/rxjs/add/operator/skip.js",
+        "node_modules/rxjs/add/operator/skipLast.js",
+        "node_modules/rxjs/add/operator/skipUntil.js",
+        "node_modules/rxjs/add/operator/skipWhile.js",
+        "node_modules/rxjs/add/operator/startWith.js",
+        "node_modules/rxjs/add/operator/subscribeOn.js",
+        "node_modules/rxjs/add/operator/switch.js",
+        "node_modules/rxjs/add/operator/switchMap.js",
+        "node_modules/rxjs/add/operator/switchMapTo.js",
+        "node_modules/rxjs/add/operator/take.js",
+        "node_modules/rxjs/add/operator/takeLast.js",
+        "node_modules/rxjs/add/operator/takeUntil.js",
+        "node_modules/rxjs/add/operator/takeWhile.js",
+        "node_modules/rxjs/add/operator/throttle.js",
+        "node_modules/rxjs/add/operator/throttleTime.js",
+        "node_modules/rxjs/add/operator/timeInterval.js",
+        "node_modules/rxjs/add/operator/timeout.js",
+        "node_modules/rxjs/add/operator/timeoutWith.js",
+        "node_modules/rxjs/add/operator/timestamp.js",
+        "node_modules/rxjs/add/operator/toArray.js",
+        "node_modules/rxjs/add/operator/toPromise.js",
+        "node_modules/rxjs/add/operator/window.js",
+        "node_modules/rxjs/add/operator/windowCount.js",
+        "node_modules/rxjs/add/operator/windowTime.js",
+        "node_modules/rxjs/add/operator/windowToggle.js",
+        "node_modules/rxjs/add/operator/windowWhen.js",
+        "node_modules/rxjs/add/operator/withLatestFrom.js",
+        "node_modules/rxjs/add/operator/zip.js",
+        "node_modules/rxjs/add/operator/zipAll.js",
+        "node_modules/rxjs/bundles/Rx.js",
+        "node_modules/rxjs/bundles/Rx.min.js",
+        "node_modules/rxjs/observable/ArrayLikeObservable.js",
+        "node_modules/rxjs/observable/ArrayObservable.js",
+        "node_modules/rxjs/observable/BoundCallbackObservable.js",
+        "node_modules/rxjs/observable/BoundNodeCallbackObservable.js",
+        "node_modules/rxjs/observable/ConnectableObservable.js",
+        "node_modules/rxjs/observable/DeferObservable.js",
+        "node_modules/rxjs/observable/EmptyObservable.js",
+        "node_modules/rxjs/observable/ErrorObservable.js",
+        "node_modules/rxjs/observable/ForkJoinObservable.js",
+        "node_modules/rxjs/observable/FromEventObservable.js",
+        "node_modules/rxjs/observable/FromEventPatternObservable.js",
+        "node_modules/rxjs/observable/FromObservable.js",
+        "node_modules/rxjs/observable/GenerateObservable.js",
+        "node_modules/rxjs/observable/IfObservable.js",
+        "node_modules/rxjs/observable/IntervalObservable.js",
+        "node_modules/rxjs/observable/IteratorObservable.js",
+        "node_modules/rxjs/observable/NeverObservable.js",
+        "node_modules/rxjs/observable/PairsObservable.js",
+        "node_modules/rxjs/observable/PromiseObservable.js",
+        "node_modules/rxjs/observable/RangeObservable.js",
+        "node_modules/rxjs/observable/ScalarObservable.js",
+        "node_modules/rxjs/observable/SubscribeOnObservable.js",
+        "node_modules/rxjs/observable/TimerObservable.js",
+        "node_modules/rxjs/observable/UsingObservable.js",
+        "node_modules/rxjs/observable/bindCallback.js",
+        "node_modules/rxjs/observable/bindNodeCallback.js",
+        "node_modules/rxjs/observable/combineLatest.js",
+        "node_modules/rxjs/observable/concat.js",
+        "node_modules/rxjs/observable/defer.js",
+        "node_modules/rxjs/observable/dom/AjaxObservable.js",
+        "node_modules/rxjs/observable/dom/WebSocketSubject.js",
+        "node_modules/rxjs/observable/dom/ajax.js",
+        "node_modules/rxjs/observable/dom/webSocket.js",
+        "node_modules/rxjs/observable/empty.js",
+        "node_modules/rxjs/observable/forkJoin.js",
+        "node_modules/rxjs/observable/from.js",
+        "node_modules/rxjs/observable/fromEvent.js",
+        "node_modules/rxjs/observable/fromEventPattern.js",
+        "node_modules/rxjs/observable/fromPromise.js",
+        "node_modules/rxjs/observable/generate.js",
+        "node_modules/rxjs/observable/if.js",
+        "node_modules/rxjs/observable/interval.js",
+        "node_modules/rxjs/observable/merge.js",
+        "node_modules/rxjs/observable/never.js",
+        "node_modules/rxjs/observable/of.js",
+        "node_modules/rxjs/observable/onErrorResumeNext.js",
+        "node_modules/rxjs/observable/pairs.js",
+        "node_modules/rxjs/observable/race.js",
+        "node_modules/rxjs/observable/range.js",
+        "node_modules/rxjs/observable/throw.js",
+        "node_modules/rxjs/observable/timer.js",
+        "node_modules/rxjs/observable/using.js",
+        "node_modules/rxjs/observable/zip.js",
+        "node_modules/rxjs/operator/audit.js",
+        "node_modules/rxjs/operator/auditTime.js",
+        "node_modules/rxjs/operator/buffer.js",
+        "node_modules/rxjs/operator/bufferCount.js",
+        "node_modules/rxjs/operator/bufferTime.js",
+        "node_modules/rxjs/operator/bufferToggle.js",
+        "node_modules/rxjs/operator/bufferWhen.js",
+        "node_modules/rxjs/operator/catch.js",
+        "node_modules/rxjs/operator/combineAll.js",
+        "node_modules/rxjs/operator/combineLatest.js",
+        "node_modules/rxjs/operator/concat.js",
+        "node_modules/rxjs/operator/concatAll.js",
+        "node_modules/rxjs/operator/concatMap.js",
+        "node_modules/rxjs/operator/concatMapTo.js",
+        "node_modules/rxjs/operator/count.js",
+        "node_modules/rxjs/operator/debounce.js",
+        "node_modules/rxjs/operator/debounceTime.js",
+        "node_modules/rxjs/operator/defaultIfEmpty.js",
+        "node_modules/rxjs/operator/delay.js",
+        "node_modules/rxjs/operator/delayWhen.js",
+        "node_modules/rxjs/operator/dematerialize.js",
+        "node_modules/rxjs/operator/distinct.js",
+        "node_modules/rxjs/operator/distinctUntilChanged.js",
+        "node_modules/rxjs/operator/distinctUntilKeyChanged.js",
+        "node_modules/rxjs/operator/do.js",
+        "node_modules/rxjs/operator/elementAt.js",
+        "node_modules/rxjs/operator/every.js",
+        "node_modules/rxjs/operator/exhaust.js",
+        "node_modules/rxjs/operator/exhaustMap.js",
+        "node_modules/rxjs/operator/expand.js",
+        "node_modules/rxjs/operator/filter.js",
+        "node_modules/rxjs/operator/finally.js",
+        "node_modules/rxjs/operator/find.js",
+        "node_modules/rxjs/operator/findIndex.js",
+        "node_modules/rxjs/operator/first.js",
+        "node_modules/rxjs/operator/groupBy.js",
+        "node_modules/rxjs/operator/ignoreElements.js",
+        "node_modules/rxjs/operator/isEmpty.js",
+        "node_modules/rxjs/operator/last.js",
+        "node_modules/rxjs/operator/let.js",
+        "node_modules/rxjs/operator/map.js",
+        "node_modules/rxjs/operator/mapTo.js",
+        "node_modules/rxjs/operator/materialize.js",
+        "node_modules/rxjs/operator/max.js",
+        "node_modules/rxjs/operator/merge.js",
+        "node_modules/rxjs/operator/mergeAll.js",
+        "node_modules/rxjs/operator/mergeMap.js",
+        "node_modules/rxjs/operator/mergeMapTo.js",
+        "node_modules/rxjs/operator/mergeScan.js",
+        "node_modules/rxjs/operator/min.js",
+        "node_modules/rxjs/operator/multicast.js",
+        "node_modules/rxjs/operator/observeOn.js",
+        "node_modules/rxjs/operator/onErrorResumeNext.js",
+        "node_modules/rxjs/operator/pairwise.js",
+        "node_modules/rxjs/operator/partition.js",
+        "node_modules/rxjs/operator/pluck.js",
+        "node_modules/rxjs/operator/publish.js",
+        "node_modules/rxjs/operator/publishBehavior.js",
+        "node_modules/rxjs/operator/publishLast.js",
+        "node_modules/rxjs/operator/publishReplay.js",
+        "node_modules/rxjs/operator/race.js",
+        "node_modules/rxjs/operator/reduce.js",
+        "node_modules/rxjs/operator/repeat.js",
+        "node_modules/rxjs/operator/repeatWhen.js",
+        "node_modules/rxjs/operator/retry.js",
+        "node_modules/rxjs/operator/retryWhen.js",
+        "node_modules/rxjs/operator/sample.js",
+        "node_modules/rxjs/operator/sampleTime.js",
+        "node_modules/rxjs/operator/scan.js",
+        "node_modules/rxjs/operator/sequenceEqual.js",
+        "node_modules/rxjs/operator/share.js",
+        "node_modules/rxjs/operator/shareReplay.js",
+        "node_modules/rxjs/operator/single.js",
+        "node_modules/rxjs/operator/skip.js",
+        "node_modules/rxjs/operator/skipLast.js",
+        "node_modules/rxjs/operator/skipUntil.js",
+        "node_modules/rxjs/operator/skipWhile.js",
+        "node_modules/rxjs/operator/startWith.js",
+        "node_modules/rxjs/operator/subscribeOn.js",
+        "node_modules/rxjs/operator/switch.js",
+        "node_modules/rxjs/operator/switchMap.js",
+        "node_modules/rxjs/operator/switchMapTo.js",
+        "node_modules/rxjs/operator/take.js",
+        "node_modules/rxjs/operator/takeLast.js",
+        "node_modules/rxjs/operator/takeUntil.js",
+        "node_modules/rxjs/operator/takeWhile.js",
+        "node_modules/rxjs/operator/throttle.js",
+        "node_modules/rxjs/operator/throttleTime.js",
+        "node_modules/rxjs/operator/timeInterval.js",
+        "node_modules/rxjs/operator/timeout.js",
+        "node_modules/rxjs/operator/timeoutWith.js",
+        "node_modules/rxjs/operator/timestamp.js",
+        "node_modules/rxjs/operator/toArray.js",
+        "node_modules/rxjs/operator/toPromise.js",
+        "node_modules/rxjs/operator/window.js",
+        "node_modules/rxjs/operator/windowCount.js",
+        "node_modules/rxjs/operator/windowTime.js",
+        "node_modules/rxjs/operator/windowToggle.js",
+        "node_modules/rxjs/operator/windowWhen.js",
+        "node_modules/rxjs/operator/withLatestFrom.js",
+        "node_modules/rxjs/operator/zip.js",
+        "node_modules/rxjs/operator/zipAll.js",
+        "node_modules/rxjs/scheduler/Action.js",
+        "node_modules/rxjs/scheduler/AnimationFrameAction.js",
+        "node_modules/rxjs/scheduler/AnimationFrameScheduler.js",
+        "node_modules/rxjs/scheduler/AsapAction.js",
+        "node_modules/rxjs/scheduler/AsapScheduler.js",
+        "node_modules/rxjs/scheduler/AsyncAction.js",
+        "node_modules/rxjs/scheduler/AsyncScheduler.js",
+        "node_modules/rxjs/scheduler/QueueAction.js",
+        "node_modules/rxjs/scheduler/QueueScheduler.js",
+        "node_modules/rxjs/scheduler/VirtualTimeScheduler.js",
+        "node_modules/rxjs/scheduler/animationFrame.js",
+        "node_modules/rxjs/scheduler/asap.js",
+        "node_modules/rxjs/scheduler/async.js",
+        "node_modules/rxjs/scheduler/queue.js",
+        "node_modules/rxjs/src/Rx.global.js",
+        "node_modules/rxjs/symbol/iterator.js",
+        "node_modules/rxjs/symbol/observable.js",
+        "node_modules/rxjs/symbol/rxSubscriber.js",
+        "node_modules/rxjs/testing/ColdObservable.js",
+        "node_modules/rxjs/testing/HotObservable.js",
+        "node_modules/rxjs/testing/SubscriptionLog.js",
+        "node_modules/rxjs/testing/SubscriptionLoggable.js",
+        "node_modules/rxjs/testing/TestMessage.js",
+        "node_modules/rxjs/testing/TestScheduler.js",
+        "node_modules/rxjs/util/AnimationFrame.js",
+        "node_modules/rxjs/util/ArgumentOutOfRangeError.js",
+        "node_modules/rxjs/util/EmptyError.js",
+        "node_modules/rxjs/util/FastMap.js",
+        "node_modules/rxjs/util/Immediate.js",
+        "node_modules/rxjs/util/Map.js",
+        "node_modules/rxjs/util/MapPolyfill.js",
+        "node_modules/rxjs/util/ObjectUnsubscribedError.js",
+        "node_modules/rxjs/util/Set.js",
+        "node_modules/rxjs/util/TimeoutError.js",
+        "node_modules/rxjs/util/UnsubscriptionError.js",
+        "node_modules/rxjs/util/applyMixins.js",
+        "node_modules/rxjs/util/assign.js",
+        "node_modules/rxjs/util/errorObject.js",
+        "node_modules/rxjs/util/isArray.js",
+        "node_modules/rxjs/util/isArrayLike.js",
+        "node_modules/rxjs/util/isDate.js",
+        "node_modules/rxjs/util/isFunction.js",
+        "node_modules/rxjs/util/isNumeric.js",
+        "node_modules/rxjs/util/isObject.js",
+        "node_modules/rxjs/util/isPromise.js",
+        "node_modules/rxjs/util/isScheduler.js",
+        "node_modules/rxjs/util/noop.js",
+        "node_modules/rxjs/util/not.js",
+        "node_modules/rxjs/util/root.js",
+        "node_modules/rxjs/util/subscribeToResult.js",
+        "node_modules/rxjs/util/toSubscriber.js",
+        "node_modules/rxjs/util/tryCatch.js",
+        "node_modules/sentence-case/sentence-case.js",
+        "node_modules/snake-case/snake-case.js",
+        "node_modules/space-pen/lib/space-pen.js",
+        "node_modules/swap-case/swap-case.js",
+        "node_modules/symbol-observable/es/index.js",
+        "node_modules/symbol-observable/es/ponyfill.js",
+        "node_modules/symbol-observable/index.js",
+        "node_modules/symbol-observable/lib/index.js",
+        "node_modules/symbol-observable/lib/ponyfill.js",
+        "node_modules/title-case/title-case.js",
+        "node_modules/underscore/underscore-min.js",
+        "node_modules/underscore/underscore.js",
+        "node_modules/underscore-plus/lib/underscore-plus.js",
+        "node_modules/upper-case/upper-case.js",
+        "node_modules/upper-case-first/upper-case-first.js",
+        "node_modules/wrappy/wrappy.js"
+      ],
+      ".json": [
+        "node_modules/atom-space-pen-views/package.json",
+        "node_modules/balanced-match/package.json",
+        "node_modules/brace-expansion/package.json",
+        "node_modules/camel-case/package.json",
+        "node_modules/change-case/package.json",
+        "node_modules/concat-map/package.json",
+        "node_modules/constant-case/package.json",
+        "node_modules/d/package.json",
+        "node_modules/dot-case/package.json",
+        "node_modules/emissary/package.json",
+        "node_modules/es5-ext/node_modules/d/package.json",
+        "node_modules/es5-ext/node_modules/es6-iterator/package.json",
+        "node_modules/es5-ext/node_modules/es6-symbol/package.json",
+        "node_modules/es5-ext/package.json",
+        "node_modules/es6-iterator/package.json",
+        "node_modules/es6-symbol/package.json",
+        "node_modules/es6-weak-map/package.json",
+        "node_modules/fs/package.json",
+        "node_modules/fs-extra/package.json",
+        "node_modules/fs.realpath/package.json",
+        "node_modules/fuzzaldrin/package.json",
+        "node_modules/glob/package.json",
+        "node_modules/graceful-fs/package.json",
+        "node_modules/grim/package.json",
+        "node_modules/header-case/package.json",
+        "node_modules/inflight/package.json",
+        "node_modules/inherits/package.json",
+        "node_modules/is-lower-case/package.json",
+        "node_modules/is-upper-case/package.json",
+        "node_modules/jquery/bower.json",
+        "node_modules/jquery/package.json",
+        "node_modules/jsonfile/package.json",
+        "node_modules/klaw/package.json",
+        "node_modules/lower-case/package.json",
+        "node_modules/lower-case-first/package.json",
+        "node_modules/minimatch/package.json",
+        "node_modules/mixto/package.json",
+        "node_modules/no-case/package.json",
+        "node_modules/once/package.json",
+        "node_modules/param-case/package.json",
+        "node_modules/pascal-case/package.json",
+        "node_modules/path-case/package.json",
+        "node_modules/path-is-absolute/package.json",
+        "node_modules/property-accessors/package.json",
+        "node_modules/rimraf/package.json",
+        "node_modules/rxjs/package.json",
+        "node_modules/sentence-case/package.json",
+        "node_modules/snake-case/package.json",
+        "node_modules/space-pen/api.json",
+        "node_modules/space-pen/package.json",
+        "node_modules/swap-case/package.json",
+        "node_modules/symbol-observable/package.json",
+        "node_modules/title-case/package.json",
+        "node_modules/underscore/package.json",
+        "node_modules/underscore-plus/package.json",
+        "node_modules/upper-case/package.json",
+        "node_modules/upper-case-first/package.json",
+        "node_modules/wrappy/package.json",
+        "package.json",
+        "tsconfig.json",
+        "tslint.json"
+      ]
+    },
+    "folders": [
+      {
+        "paths": [
+          "assets/config",
+          "keymaps",
+          "lib",
+          "",
+          "spec"
+        ],
+        "dependencies": {
+          "atom-space-pen-views": "^2.2.0",
+          "change-case": "^3.0.0",
+          "fs": "0.0.1-security",
+          "fs-extra": "^0.30.0",
+          "rxjs": "^5.0.0-rc.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/atom-space-pen-views/lib",
+          "node_modules/atom-space-pen-views"
+        ],
+        "dependencies": {
+          "fuzzaldrin": "^2.1.0",
+          "space-pen": "^5.1.2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/brace-expansion"
+        ],
+        "dependencies": {
+          "balanced-match": "^1.0.0",
+          "concat-map": "0.0.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/camel-case"
+        ],
+        "dependencies": {
+          "no-case": "^2.2.0",
+          "upper-case": "^1.1.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/change-case"
+        ],
+        "dependencies": {
+          "camel-case": "^3.0.0",
+          "constant-case": "^2.0.0",
+          "dot-case": "^2.1.0",
+          "header-case": "^1.0.0",
+          "is-lower-case": "^1.1.0",
+          "is-upper-case": "^1.1.0",
+          "lower-case": "^1.1.1",
+          "lower-case-first": "^1.0.0",
+          "no-case": "^2.2.0",
+          "param-case": "^2.1.0",
+          "pascal-case": "^2.0.0",
+          "path-case": "^2.1.0",
+          "sentence-case": "^2.1.0",
+          "snake-case": "^2.1.0",
+          "swap-case": "^1.1.0",
+          "title-case": "^2.1.0",
+          "upper-case": "^1.1.1",
+          "upper-case-first": "^1.1.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/constant-case"
+        ],
+        "dependencies": {
+          "snake-case": "^2.1.0",
+          "upper-case": "^1.1.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/d",
+          "node_modules/d/test"
+        ],
+        "dependencies": {
+          "es5-ext": "~0.10.2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/dot-case"
+        ],
+        "dependencies": {
+          "no-case": "^2.2.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/emissary/lib",
+          "node_modules/emissary"
+        ],
+        "dependencies": {
+          "es6-weak-map": "^0.1.2",
+          "mixto": "1.x",
+          "property-accessors": "^1.1",
+          "underscore-plus": "1.x"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/es5-ext/array/#/@@iterator",
+          "node_modules/es5-ext/array/#",
+          "node_modules/es5-ext/array/#/concat",
+          "node_modules/es5-ext/array/#/copy-within",
+          "node_modules/es5-ext/array/#/entries",
+          "node_modules/es5-ext/array/#/fill",
+          "node_modules/es5-ext/array/#/filter",
+          "node_modules/es5-ext/array/#/find",
+          "node_modules/es5-ext/array/#/find-index",
+          "node_modules/es5-ext/array/#/keys",
+          "node_modules/es5-ext/array/#/map",
+          "node_modules/es5-ext/array/#/slice",
+          "node_modules/es5-ext/array/#/splice",
+          "node_modules/es5-ext/array/#/values",
+          "node_modules/es5-ext/array",
+          "node_modules/es5-ext/array/from",
+          "node_modules/es5-ext/array/of",
+          "node_modules/es5-ext/boolean",
+          "node_modules/es5-ext/date/#",
+          "node_modules/es5-ext/date",
+          "node_modules/es5-ext/error/#",
+          "node_modules/es5-ext/error",
+          "node_modules/es5-ext/function/#",
+          "node_modules/es5-ext/function",
+          "node_modules/es5-ext",
+          "node_modules/es5-ext/iterable",
+          "node_modules/es5-ext/json",
+          "node_modules/es5-ext/math",
+          "node_modules/es5-ext/math/acosh",
+          "node_modules/es5-ext/math/asinh",
+          "node_modules/es5-ext/math/atanh",
+          "node_modules/es5-ext/math/cbrt",
+          "node_modules/es5-ext/math/clz32",
+          "node_modules/es5-ext/math/cosh",
+          "node_modules/es5-ext/math/expm1",
+          "node_modules/es5-ext/math/fround",
+          "node_modules/es5-ext/math/hypot",
+          "node_modules/es5-ext/math/imul",
+          "node_modules/es5-ext/math/log10",
+          "node_modules/es5-ext/math/log1p",
+          "node_modules/es5-ext/math/log2",
+          "node_modules/es5-ext/math/sign",
+          "node_modules/es5-ext/math/sinh",
+          "node_modules/es5-ext/math/tanh",
+          "node_modules/es5-ext/math/trunc",
+          "node_modules/es5-ext/number/#",
+          "node_modules/es5-ext/number/epsilon",
+          "node_modules/es5-ext/number",
+          "node_modules/es5-ext/number/is-finite",
+          "node_modules/es5-ext/number/is-integer",
+          "node_modules/es5-ext/number/is-nan",
+          "node_modules/es5-ext/number/is-safe-integer",
+          "node_modules/es5-ext/number/max-safe-integer",
+          "node_modules/es5-ext/number/min-safe-integer",
+          "node_modules/es5-ext/object",
+          "node_modules/es5-ext/object/assign",
+          "node_modules/es5-ext/object/keys",
+          "node_modules/es5-ext/object/set-prototype-of",
+          "node_modules/es5-ext/reg-exp/#",
+          "node_modules/es5-ext/reg-exp/#/match",
+          "node_modules/es5-ext/reg-exp/#/replace",
+          "node_modules/es5-ext/reg-exp/#/search",
+          "node_modules/es5-ext/reg-exp/#/split",
+          "node_modules/es5-ext/reg-exp/#/sticky",
+          "node_modules/es5-ext/reg-exp/#/unicode",
+          "node_modules/es5-ext/reg-exp",
+          "node_modules/es5-ext/string/#/@@iterator",
+          "node_modules/es5-ext/string/#",
+          "node_modules/es5-ext/string/#/code-point-at",
+          "node_modules/es5-ext/string/#/contains",
+          "node_modules/es5-ext/string/#/ends-with",
+          "node_modules/es5-ext/string/#/normalize",
+          "node_modules/es5-ext/string/#/repeat",
+          "node_modules/es5-ext/string/#/starts-with",
+          "node_modules/es5-ext/string",
+          "node_modules/es5-ext/string/from-code-point",
+          "node_modules/es5-ext/string/raw",
+          "node_modules/es5-ext/test",
+          "node_modules/es5-ext/test/array/#/@@iterator",
+          "node_modules/es5-ext/test/array/#",
+          "node_modules/es5-ext/test/array/#/concat",
+          "node_modules/es5-ext/test/array/#/copy-within",
+          "node_modules/es5-ext/test/array/#/entries",
+          "node_modules/es5-ext/test/array/#/fill",
+          "node_modules/es5-ext/test/array/#/filter",
+          "node_modules/es5-ext/test/array/#/find",
+          "node_modules/es5-ext/test/array/#/find-index",
+          "node_modules/es5-ext/test/array/#/keys",
+          "node_modules/es5-ext/test/array/#/map",
+          "node_modules/es5-ext/test/array/#/slice",
+          "node_modules/es5-ext/test/array/#/splice",
+          "node_modules/es5-ext/test/array/#/values",
+          "node_modules/es5-ext/test/array",
+          "node_modules/es5-ext/test/array/from",
+          "node_modules/es5-ext/test/array/of",
+          "node_modules/es5-ext/test/boolean",
+          "node_modules/es5-ext/test/date/#",
+          "node_modules/es5-ext/test/date",
+          "node_modules/es5-ext/test/error/#",
+          "node_modules/es5-ext/test/error",
+          "node_modules/es5-ext/test/function/#",
+          "node_modules/es5-ext/test/function",
+          "node_modules/es5-ext/test/iterable",
+          "node_modules/es5-ext/test/json",
+          "node_modules/es5-ext/test/math",
+          "node_modules/es5-ext/test/math/acosh",
+          "node_modules/es5-ext/test/math/asinh",
+          "node_modules/es5-ext/test/math/atanh",
+          "node_modules/es5-ext/test/math/cbrt",
+          "node_modules/es5-ext/test/math/clz32",
+          "node_modules/es5-ext/test/math/cosh",
+          "node_modules/es5-ext/test/math/expm1",
+          "node_modules/es5-ext/test/math/fround",
+          "node_modules/es5-ext/test/math/hypot",
+          "node_modules/es5-ext/test/math/imul",
+          "node_modules/es5-ext/test/math/log10",
+          "node_modules/es5-ext/test/math/log1p",
+          "node_modules/es5-ext/test/math/log2",
+          "node_modules/es5-ext/test/math/sign",
+          "node_modules/es5-ext/test/math/sinh",
+          "node_modules/es5-ext/test/math/tanh",
+          "node_modules/es5-ext/test/math/trunc",
+          "node_modules/es5-ext/test/number/#",
+          "node_modules/es5-ext/test/number/epsilon",
+          "node_modules/es5-ext/test/number/is-finite",
+          "node_modules/es5-ext/test/number/is-integer",
+          "node_modules/es5-ext/test/number/is-nan",
+          "node_modules/es5-ext/test/number",
+          "node_modules/es5-ext/test/number/is-safe-integer",
+          "node_modules/es5-ext/test/number/max-safe-integer",
+          "node_modules/es5-ext/test/number/min-safe-integer",
+          "node_modules/es5-ext/test/object",
+          "node_modules/es5-ext/test/object/assign",
+          "node_modules/es5-ext/test/object/keys",
+          "node_modules/es5-ext/test/object/set-prototype-of",
+          "node_modules/es5-ext/test/reg-exp/#",
+          "node_modules/es5-ext/test/reg-exp/#/match",
+          "node_modules/es5-ext/test/reg-exp/#/replace",
+          "node_modules/es5-ext/test/reg-exp/#/search",
+          "node_modules/es5-ext/test/reg-exp/#/split",
+          "node_modules/es5-ext/test/reg-exp/#/sticky",
+          "node_modules/es5-ext/test/reg-exp/#/unicode",
+          "node_modules/es5-ext/test/reg-exp",
+          "node_modules/es5-ext/test/string/#/@@iterator",
+          "node_modules/es5-ext/test/string/#",
+          "node_modules/es5-ext/test/string/#/code-point-at",
+          "node_modules/es5-ext/test/string/#/contains",
+          "node_modules/es5-ext/test/string/#/ends-with",
+          "node_modules/es5-ext/test/string/#/normalize",
+          "node_modules/es5-ext/test/string/#/repeat",
+          "node_modules/es5-ext/test/string/#/starts-with",
+          "node_modules/es5-ext/test/string",
+          "node_modules/es5-ext/test/string/from-code-point",
+          "node_modules/es5-ext/test/string/raw"
+        ],
+        "dependencies": {
+          "es6-iterator": "2",
+          "es6-symbol": "~3.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/es5-ext/node_modules/d",
+          "node_modules/es5-ext/node_modules/d/test"
+        ],
+        "dependencies": {
+          "es5-ext": "^0.10.9"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/es5-ext/node_modules/es6-iterator/#",
+          "node_modules/es5-ext/node_modules/es6-iterator",
+          "node_modules/es5-ext/node_modules/es6-iterator/test/#",
+          "node_modules/es5-ext/node_modules/es6-iterator/test"
+        ],
+        "dependencies": {
+          "d": "1",
+          "es5-ext": "^0.10.14",
+          "es6-symbol": "^3.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/es5-ext/node_modules/es6-symbol",
+          "node_modules/es5-ext/node_modules/es6-symbol/test"
+        ],
+        "dependencies": {
+          "d": "1",
+          "es5-ext": "~0.10.14"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/es6-iterator/#",
+          "node_modules/es6-iterator",
+          "node_modules/es6-iterator/test/#",
+          "node_modules/es6-iterator/test"
+        ],
+        "dependencies": {
+          "d": "~0.1.1",
+          "es5-ext": "~0.10.5",
+          "es6-symbol": "~2.0.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/es6-symbol",
+          "node_modules/es6-symbol/test"
+        ],
+        "dependencies": {
+          "d": "~0.1.1",
+          "es5-ext": "~0.10.5"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/es6-weak-map",
+          "node_modules/es6-weak-map/test"
+        ],
+        "dependencies": {
+          "d": "~0.1.1",
+          "es5-ext": "~0.10.6",
+          "es6-iterator": "~0.1.3",
+          "es6-symbol": "~2.0.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fs-extra/lib/copy",
+          "node_modules/fs-extra/lib/copy-sync",
+          "node_modules/fs-extra/lib/empty",
+          "node_modules/fs-extra/lib/ensure",
+          "node_modules/fs-extra/lib",
+          "node_modules/fs-extra/lib/json",
+          "node_modules/fs-extra/lib/mkdirs",
+          "node_modules/fs-extra/lib/move",
+          "node_modules/fs-extra/lib/output",
+          "node_modules/fs-extra/lib/remove",
+          "node_modules/fs-extra/lib/util",
+          "node_modules/fs-extra/lib/walk",
+          "node_modules/fs-extra"
+        ],
+        "dependencies": {
+          "graceful-fs": "^4.1.2",
+          "jsonfile": "^2.1.0",
+          "klaw": "^1.0.0",
+          "path-is-absolute": "^1.0.0",
+          "rimraf": "^2.2.8"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/glob"
+        ],
+        "dependencies": {
+          "fs.realpath": "^1.0.0",
+          "inflight": "^1.0.4",
+          "inherits": "2",
+          "minimatch": "^3.0.4",
+          "once": "^1.3.0",
+          "path-is-absolute": "^1.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/grim/lib",
+          "node_modules/grim"
+        ],
+        "dependencies": {
+          "emissary": "^1.2.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/header-case"
+        ],
+        "dependencies": {
+          "no-case": "^2.2.0",
+          "upper-case": "^1.1.3"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/inflight"
+        ],
+        "dependencies": {
+          "once": "^1.3.0",
+          "wrappy": "1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/is-lower-case"
+        ],
+        "dependencies": {
+          "lower-case": "^1.1.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/is-upper-case"
+        ],
+        "dependencies": {
+          "upper-case": "^1.1.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/jsonfile"
+        ],
+        "dependencies": {
+          "graceful-fs": "^4.1.6"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/klaw",
+          "node_modules/klaw/src"
+        ],
+        "dependencies": {
+          "graceful-fs": "^4.1.9"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/lower-case-first"
+        ],
+        "dependencies": {
+          "lower-case": "^1.1.2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/minimatch"
+        ],
+        "dependencies": {
+          "brace-expansion": "^1.1.7"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/no-case",
+          "node_modules/no-case/vendor"
+        ],
+        "dependencies": {
+          "lower-case": "^1.1.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/once"
+        ],
+        "dependencies": {
+          "wrappy": "1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/param-case"
+        ],
+        "dependencies": {
+          "no-case": "^2.2.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/pascal-case"
+        ],
+        "dependencies": {
+          "camel-case": "^3.0.0",
+          "upper-case-first": "^1.1.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/path-case"
+        ],
+        "dependencies": {
+          "no-case": "^2.2.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/property-accessors/lib",
+          "node_modules/property-accessors"
+        ],
+        "dependencies": {
+          "es6-weak-map": "^0.1.2",
+          "mixto": "1.x"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/rimraf"
+        ],
+        "dependencies": {
+          "glob": "^7.0.5"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/rxjs",
+          "node_modules/rxjs/add/observable",
+          "node_modules/rxjs/add/observable/dom",
+          "node_modules/rxjs/add/operator",
+          "node_modules/rxjs/bundles",
+          "node_modules/rxjs/observable",
+          "node_modules/rxjs/observable/dom",
+          "node_modules/rxjs/operator",
+          "node_modules/rxjs/scheduler",
+          "node_modules/rxjs/src",
+          "node_modules/rxjs/symbol",
+          "node_modules/rxjs/testing",
+          "node_modules/rxjs/util"
+        ],
+        "dependencies": {
+          "symbol-observable": "^1.0.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/sentence-case"
+        ],
+        "dependencies": {
+          "no-case": "^2.2.0",
+          "upper-case-first": "^1.1.2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/snake-case"
+        ],
+        "dependencies": {
+          "no-case": "^2.2.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/space-pen",
+          "node_modules/space-pen/lib"
+        ],
+        "dependencies": {
+          "grim": "^1.0.0",
+          "jquery": "2.1.4",
+          "underscore-plus": "1.x"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/swap-case"
+        ],
+        "dependencies": {
+          "lower-case": "^1.1.1",
+          "upper-case": "^1.1.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/title-case"
+        ],
+        "dependencies": {
+          "no-case": "^2.2.0",
+          "upper-case": "^1.0.3"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/underscore-plus/lib",
+          "node_modules/underscore-plus"
+        ],
+        "dependencies": {
+          "underscore": "~1.6.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/upper-case-first"
+        ],
+        "dependencies": {
+          "upper-case": "^1.1.1"
+        }
+      }
+    ]
   }
 }
