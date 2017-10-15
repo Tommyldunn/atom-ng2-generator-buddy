@@ -71,7 +71,7 @@
     "type": "git",
     "url": "git+https://github.com/Tommyldunn/atom-ng2-generator-buddy.git"
   },
-  "version": "0.1.6",
+  "version": "0.1.7",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [
